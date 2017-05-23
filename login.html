@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi Read</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/video-js.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<body>
+<!-- Static navbar -->
+<div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Hi Read"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav nav1">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="course-list.html">经典课程</a></li>
+                <li><a href="javascript:">课程优势</a></li>
+                <li><a href="javascript:">为什么读原版</a></li>
+                <li><a href="javascript:">机构合作</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right nav-login">
+                <li><a href="login.html">登录</a></li>
+                <li><a href="register.html">注册</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<!--content start-->
+<div class="container login-wp">
+    <div class="login-left">
+        <div class="register-wrap" id="register-wrap">
+            <div class="register" id="register">
+                <div class="register-top" id="reg-top">
+                    <h2 class="normal" id="normal">普通登录</h2>
+                    <h2 class="nopassword" id="nopw">微信登录</h2>
+                    <!--<a id="qrcode" href="javascript:"></a>-->
+                </div>
+
+                <!--普通登录-->
+                <div class="register-con" id="rc">
+                    <form action="#">
+                        <ul>
+                            <li id="rc-inner-num">
+                                <i class="fa fa-minus-circle"></i>
+                                <span>请输入昵称/邮箱/手机号码</span>
+                            </li>
+                            <li id="rc-inner-virity">
+                                <i class="fa fa-minus-circle"></i>
+                                <span>请输入密码</span>
+                            </li>
+                            <li id="rc-innerError">
+                                <i class="fa fa-minus-circle"></i>
+                                <span>您输入的用户名或密码不正确</span>
+                            </li>
+                            <li class="form-group">
+                                <label>登录名:</label>
+                                <a href="javascript:" class="fr">忘记登录名？</a>
+                                <input type="text" name="phone-num" class="form-control" placeholder="昵称/邮箱/手机号码"/>
+                                <span class="fa fa-check success" style="display:none;color:green;position:relative;left:-25px;top:5px;"></span>
+                            </li>
+                            <li class="form-group">
+                                <label>登录密码:</label>
+                                <a href="forget.html" class="fr">忘记密码？</a>
+                                <input type="password" name="password" id="pass1" class="form-control" placeholder="密码"/>
+
+                            </li>
+                            <li class="read">
+                                <label>
+                                    <input type="checkbox" class="ck" name="check" value="1" checked="checked"/>2周内自动登录
+                                </label>
+                            </li>
+                            <li>
+                                <button class="submit" type="submit" id="login-btn">立即登录</button>
+                            </li>
+                            <li>
+                                <a href="register.html" class="">新用户注册</a>
+                            </li>
+                            <li class="read">
+                                <label>
+                                    <input type="checkbox" class="ck" name="check" value="1" checked="checked">我同意并已阅读 <a href="javascript:">《Hi Read网站服务协议》</a>
+                                </label>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <!--手机无密码登录-->
+                <div class="login-con" id="lc">
+                    <div class="login-wx">
+                        <div class="saoyisao">扫码登录</div>
+                        <div class="qr-code">
+                            <img src="img/wx3.png" alt="" width="136">
+                        </div>
+                        <div class="link">
+                            <img src="img/code.png" alt="">
+                            <span>打开手机微信，扫一扫登录<br/>更安全的登录方式</span>
+                        </div>
+                        <ul class="clear-fix login-ul link">
+                            <li>
+                                <a href="register.html" class="zhuce">新用户注册</a>
+                            </li>
+                            <!-- <li class="read">
+                                <label>
+                                    <input type="checkbox" class="ck" name="check" value="1" checked="checked">我同意并已阅读 <a href="javascript:">《Hi Read网站服务协议》</a>
+                                </label>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <!--<form action="#">
+                        <ul>
+                            <li id="inner-num">
+                                <i></i>
+                                <span>请输入手机号码</span>
+                            </li>
+                            <li id="inner-virity">
+                                <i></i>
+                                <span>请输入验证码</span>
+                            </li>
+                            <li class="lg-num  form-group">
+                                <select name="country" id="country" class="info-select">
+                                    <option value="中国">中国</option>
+                                </select>
+                                <input type="text" name="phone-num" class="form-control" placeholder="手机号码"/>
+                                <span class="fa fa-check success" style="display:none;color:green;position:relative;left:-25px;top:5px;"></span>
+                            </li>
+                            <li class="password form-group">
+                                <input type="password" name="password" id="pass" class="form-control" placeholder="动态密码"/>
+
+                            </li>
+                            <li>
+                                <button class="getcode" id="getcode">获取手机动态密码</button>
+                            </li>
+                            <li class="read">
+                                <label>
+                                    <input type="checkbox" class="ck" name="check" value="1" checked="checked">2周内自动登录
+                                </label>
+                            </li>
+
+                            <li>
+                                <button class="submit" type="submit" id="login-btn1">登录</button>
+                            </li>
+                            <li>
+                                <a href="register.html" class="zhuce">新用户注册</a>
+                            </li>
+                            <li class="read">
+                                <label>
+                                    <input type="checkbox" class="ck" name="check" value="1" checked="checked">我同意并已阅读 <a href="javascript:">《Hi Read网站服务协议》</a>
+                                </label>
+                            </li>
+                        </ul>
+                    </form>-->
+                </div>
+                <!-- 扫码登录 -->
+                <div class="saoma" id="sm">
+                    <div class="screen-tu" id="screen"></div>
+                    <div class="saoyisao">扫码登录</div>
+                    <div class="qr-code">
+                        <img src="img/wx2.png" alt="">
+                    </div>
+                    <div class="link">
+                        <img src="img/code.png" alt="">
+                        <span>打开手机微信，扫一扫登录<br/>更安全的登录方式</span>
+                    </div>
+                    <ul class="clear-fix login-ul link">
+                        <li>
+                            <a href="register.html" class="zhuce">新用户注册</a>
+                        </li>
+                        <li class="read">
+                            <label>
+                                <input type="checkbox" class="ck" name="check" value="1" checked="checked">我同意并已阅读 <a href="javascript:">《Hi Read网站服务协议》</a>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--<div class="row">
+            <div class="col-md-4">
+                <div class="page-title">
+                    <div class="login-title">欢迎回来</div>
+                </div>
+            </div>
+            <div class="col-md-8 login-link">
+                <span>还没有账号?</span>
+                <a href="register.html" class="">马上注册</a>
+            </div>
+        </div>
+        <form class="clear-fix pt-10">
+            <div class="form-group form-group1">
+                <label for="exampleInputEmail1" class="fa fa-user-o"></label>
+                <input type="email" class="form-control form-control1" id="exampleInputEmail1" placeholder="请输入邮箱/手机/用户名">
+            </div>
+            <div class="form-group form-group1">
+                <label for="exampleInputPassword1" class="fa fa-unlock-alt"></label>
+                <input type="password" class="form-control form-control1" id="exampleInputPassword1" placeholder="请输入密码">
+            </div>
+            <div class="checkbox form-control2">
+                <label>
+                    <input type="checkbox"> 记住密码
+                </label>
+            </div>
+            <button type="submit" class="btn btn-warning btn-warning1">登录</button>
+            <div class="password-reset pt-10">
+                <a href="javascript:" class="link">忘记密码？</a>
+            </div>
+        </form>-->
+
+    </div>
+    <!--<div class="col-sm-6">
+        <div class="login-right">
+
+            <div class="page-title">推荐微信扫码快速注册</div>
+
+            <div class="page-btn"><a href="javascript:" class="page-btn-c3"><i class="fa fa-weixin"></i> 微信账号登录</a></div>
+            <div class="pt-15"><img src="img/img8.jpg" alt=""></div>
+        </div>
+    </div>-->
+</div>
+<!--content end-->
+<div class="ym-footer" id="footer">
+    <div class="main">
+        <div class="container">
+            <div class="content clearfix">
+                <div class="logo-slogan">
+                    <img class="img-responsive logo" src="img/logo1.png" alt="少年商学院">
+                    <div class="slogan">读原版，是提升英语能力最有效学习方法</div>
+                </div>
+                <div class="contact">
+                    <div class="links">
+                        <a class="item" href="javascript:" target="_blank">
+                            <i class="fa fa-weixin"></i>
+                            <span class="name">微信</span>
+                        </a>
+                        <a class="item" href="javascript:" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                            <span class="name">HiRead@HiRead.com</span>
+                        </a>
+                    </div>
+                    <div class="tel">
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:400888888">400-888-8888</a>
+                    </div>
+                </div>
+                <div class="qr-code">
+                    <div class="item">
+                        <img class="img-responsive" src="img/wx.png" alt="服务号">
+                        <div class="name">移动课堂</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="footer-nav">
+        <div class="list">
+            <a class="item" href="index.html">首页</a>
+            <a class="item" href="javascript:">经典课程</a>
+            <a class="item" href="javascript:">课程优势</a>
+            <a class="item" href="javascript:">为什么读原版</a>
+            <a class="item" href="javascript:">机构合作</a>
+        </div>
+    </nav>
+    <div class="bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="copy">
+                    © 2013-2017 Hi Read All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/login.js"></script>
+</html>
