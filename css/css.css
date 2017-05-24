@@ -285,7 +285,7 @@ a.course-3:hover img{border-color: #457093;}
 .product-header-block .block-l .cover-img:active .video-tip,.product-header-block .block-l .cover-img:hover .video-tip,.product-header-block .block-l a{display:block}
 .product-header-block{position:relative;margin:0 auto 25px;border:1px solid #eee}
 .product-header-block .block-r{position:relative}
-.product-header-block .block-l{position:relative;width:220px}
+.product-header-block .block-l{position:relative;width:400px}
 .product-header-block .block-l .cover-img{position:absolute;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,.25)}
 .product-header-block .block-l .cover-img:active,.product-header-block .block-l .cover-img:hover{background:rgba(0,0,0,.5);-webkit-transition:all .3s ease;transition:all .3s ease}
 .product-header-block .block-l .cover-img:active .ym-icon-play-btn-normal,.product-header-block .block-l .cover-img:hover .ym-icon-play-btn-normal{background-position:0 -40px}
@@ -297,17 +297,17 @@ a.course-3:hover img{border-color: #457093;}
 .product-header-block .block-l .cover-share ul li{margin-left:10px}
 .product-header-block .block-l .cover-share ul li a{display:inline-block}
 .product-header-block .block-l img{width:100%}
-.product-header-block .block-r{overflow:hidden;width:330px;padding:20px 0 0 10px;}
-.product-header-block .block-r .title{margin:0 0 2px;font-size:20px;font-weight:400;max-height:55px;overflow:hidden}
+.product-header-block .block-r{overflow:hidden;width:738px;padding:20px 20px 0 20px;position: relative;}
+.product-header-block .block-r .title{margin:0 0 2px;font-size:24px;font-weight:400;max-height:55px;overflow:hidden}
 .product-header-block .block-r .title a{color:#333;display:block}
 .product-header-block .block-r .title:hover a{color:#D62D40}
-.product-header-block .block-r .date{}
-.product-header-block .block-r .date1{color: #D62D40;line-height: 1em;}
+.product-header-block .block-r .date{line-height: 2.5em;font-size: 16px;}
+.product-header-block .block-r .date1{color: #D62D40;line-height: 1.5em;}
 .product-header-block .block-r .date .ym-icon{vertical-align:middle;margin-right:8px}
 .product-header-block .block-r .date span{display:inline-block;line-height:1;font-size:14px;color:#666;vertical-align:bottom}
 .product-header-block .block-r .block-b{padding-top:4px;float: left;}
 .product-header-block .block-r .block-b ul{margin:0;padding:0;list-style:none}
-.product-header-block .block-r .block-b ul li{color:#666;line-height:20px;vertical-align:middle;padding:3px 0;font-size:14px}
+.product-header-block .block-r .block-b ul li{color:#666;line-height:20px;vertical-align:middle;padding:6px 0;font-size:14px}
 .product-header-block .block-r .block-b ul .o-pt-ic{display:inline-block;width:5px;height:5px;background:#666;border-radius:50%;margin-right:8px;vertical-align:top;margin-top:8px}
 .product-header-block .setting{position:absolute;top:10px;right:10px;display:block;width:25px;height:25px;line-height:24px;text-align:center;color:#fff;background:#666;border-radius:50%}
 .product-header-block .setting:hover{background:#D62D40;-webkit-transition:all .3s ease;transition:all .3s ease}
@@ -622,3 +622,14 @@ a.download-url{cursor: pointer;}
 .course-info1{border-bottom: solid 1px #457093;}
 
 .p-price{color: #D62D40;}
+.btn-pr{position: absolute;right: 20px;bottom: 20px;}
+.header-main{position: relative;}
+
+.nav-tabs3>li{width: 25%;text-align: center;}
+.nav-tabs3>li>a span{color: #666;font-size: 24px;padding-bottom: 12px;border-bottom: 4px solid transparent;}
+.nav-tabs3>li.active>a span{color: #D62D40;font-size: 24px;padding-bottom: 12px;border-bottom: 4px solid #D62D40;}
+.nav-tabs3>li>a i{font-size: 20px;display: inline-block;padding-left: 5px;-webkit-animation:tab-icon-animation .5s infinite;animation:tab-icon-animation .5s infinite;vertical-align: top;padding-top: 6px;color: #666;}
+.nav-tabs3>li.active>a, .nav-tabs3>li.active>a:hover, .nav-tabs3>li.active>a:focus{border: 1px solid #ddd;border-bottom-color: transparent;}
+.nav-tabs3>li>a:hover,.nav-tabs3>li>a:active{background: #DEEBF3;border-color: #DEEBF3;}
+.tab-content3 .tab-pane{padding: 30px 0;}
+.tab-content3 .panel-body{padding: 0;}
