@@ -633,3 +633,15 @@ a.download-url{cursor: pointer;}
 .nav-tabs3>li>a:hover,.nav-tabs3>li>a:active{background: #DEEBF3;border-color: #DEEBF3;}
 .tab-content3 .tab-pane{padding: 30px 0;}
 .tab-content3 .panel-body{padding: 0;}
+
+/*questionnaire*/
+.questionnaire-wp{width: 1000px;margin: 50px auto 0;border: solid 1px #eee;padding-bottom: 50px;background: #fff;}
+.questionnaire-wp1{width: 710px;margin: 0 auto;}
+.questionnaire-title{padding-top: 20px;font-size: 24px;}
+.questionnaire-wp1 label{font-size: 16px;}
+.input-text1{border-bottom: solid 1px #eee;}
+.questionnaire-footer{padding: 50px;text-align: center;}
+.layui-form-checked[lay-skin=primary] i{border-color: #1E9FFF;background-color: #1E9FFF;}
+.layui-form-radio i:hover, .layui-form-radioed i{color: #1E9FFF;}
+.layui-form-select dl dd.layui-this{background-color: #1E9FFF;}
+.layui-form-checkbox[lay-skin=primary]:hover i{border-color: #1E9FFF;}

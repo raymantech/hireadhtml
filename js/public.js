@@ -70,29 +70,25 @@ $(function () {
         $(this).removeClass('top-phone-hover');
     });
     $(".scroll").niceScroll({
-        cursorcolor:"rgba(0,0,0,.3)",
-        cursoropacitymax:1,
-        touchbehavior:false,
-        cursorwidth:"5px",
-        cursorborder:"0",
-        cursorborderradius:"0"
+        cursorcolor: "rgba(0,0,0,.3)",
+        cursoropacitymax: 1,
+        touchbehavior: false,
+        cursorwidth: "5px",
+        cursorborder: "0",
+        cursorborderradius: "0"
     });
 });
-
-
-
-
-(function($, window, undefined) {
+(function ($, window, undefined) {
 // outside the scope of the jQuery plugin to
 // keep track of all dropdowns
     var $allDropdowns = $();
 // if instantlyCloseOthers is true, then it will instantly
 // shut other nav items when a new one is hovered over
-    $.fn.dropdownHover = function(options) {
+    $.fn.dropdownHover = function (options) {
 // the element we really care about
 // is the dropdown-toggle's parent
         $allDropdowns = $allDropdowns.add(this.parent());
-        return this.each(function() {
+        return this.each(function () {
             var $this = $(this).parent(),
                 defaults = {
                     delay: 500,
@@ -104,13 +100,13 @@ $(function () {
                 },
                 options = $.extend(true, {}, defaults, options, data),
                 timeout;
-            $this.hover(function() {
-                if(options.instantlyCloseOthers === true)
+            $this.hover(function () {
+                if (options.instantlyCloseOthers === true)
                     $allDropdowns.removeClass('open');
                 window.clearTimeout(timeout);
                 $(this).addClass('open');
-            }, function() {
-                timeout = window.setTimeout(function() {
+            }, function () {
+                timeout = window.setTimeout(function () {
                     $this.removeClass('open');
                 }, options.delay);
             });
@@ -118,3 +114,9 @@ $(function () {
     };
     $('[data-hover="dropdown"]').dropdownHover();
 })(jQuery, this);
+
+$(function () {
+    $('.questionnaire-btn').click(function () {
+
+    })
+});

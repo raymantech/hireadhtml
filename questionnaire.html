@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi Read - 问卷调查</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/video-js.css">
+    <link rel="stylesheet" href="css/style.css">
+<body style="background: #eee;">
+<div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Hi Read"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav nav1">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="course-list.html">经典课程</a></li>
+                <li><a href="javascript:">课程优势</a></li>
+                <li><a href="javascript:">为什么读原版</a></li>
+                <li><a href="javascript:">机构合作</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right nav2">
+                <li id="fat-menu" class="dropdown">
+                    <a id="drop3" href="javascript:" class="dropdown-toggle dropdown-toggle1" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="member-img"><img src="img/img.jpg" alt=""></span>
+                        <span>admin</span>
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="drop3">
+                        <li><a href="javascript:"><i class="fa fa-cog"></i>账户设置</a></li>
+                        <li><a href="login.html"><i class="fa fa-power-off"></i>退出</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:">学习中心</a></li>
+            </ul>
+            <!--<ul class="nav navbar-nav navbar-right nav-login">
+                <li><a href="login.html">登录</a></li>
+                <li><a href="register.html">注册</a></li>
+            </ul>-->
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<div class="questionnaire-wp clear-fix">
+    <div class="text-center pt-50">
+        <!--<img src="img/logo1.png" alt="">-->
+        <h3 class="questionnaire-title">Hi Read测试</h3>
+    </div>
+    <form class="layui-form questionnaire-wp1 layui-form-pane" action="">
+        <div class="layui-form-item">
+            <label>1. 孩子所就读的学校类型 （共4分，选A得1分）</label>
+            <div><input type="radio" name="sex1" value="" title="A. 公立学校"></div>
+            <div><input type="radio" name="sex1" value="" title="B. 双语学校"></div>
+            <div><input type="radio" name="sex1" value="" title="C. 民办／私立学校 "></div>
+            <div><input type="radio" name="sex1" value="" title="D. 国际部／国际学校"></div>
+        </div>
+        <div class="layui-form-item">
+            <label>2. 孩子在学校学了几年英语？（⾮非培训机构） （共5分）</label>
+            <div><input type="radio" name="sex2" value="" title="A. 没开始学"></div>
+            <div><input type="radio" name="sex2" value="" title="B. 1年"></div>
+            <div><input type="radio" name="sex2" value="" title="C. 2年"></div>
+            <div><input type="radio" name="sex2" value="" title="D. 3年"></div>
+            <div><input type="radio" name="sex2" value="" title="E. 4年"></div>
+            <div><input type="radio" name="sex2" value="" title="F. 5年及以上"></div>
+        </div>
+        <div class="layui-form-item">
+            <label>3. 孩⼦在课外培训机构学习了几年英语？ （共5分）</label>
+            <div><input type="radio" name="sex3" value="" title="A. 没开始学"></div>
+            <div><input type="radio" name="sex3" value="" title="B. 1年"></div>
+            <div><input type="radio" name="sex3" value="" title="C. 2年"></div>
+            <div><input type="radio" name="sex3" value="" title="D. 3年"></div>
+            <div><input type="radio" name="sex3" value="" title="E. 4年"></div>
+            <div><input type="radio" name="sex3" value="" title="F. 5年及以上"></div>
+        </div>
+        <div class="layui-form-item">
+            <label>4. 孩子在课外培训机构每周英⽂文学习几个小时？ （共5分） </label>
+            <div><input type="radio" name="sex4" value="" title="A. 没学"></div>
+            <div><input type="radio" name="sex4" value="" title="B. 1⼩小时"></div>
+            <div><input type="radio" name="sex4" value="" title="C. 2⼩小时"></div>
+            <div><input type="radio" name="sex4" value="" title="D. 3⼩小时"></div>
+            <div><input type="radio" name="sex4" value="" title="E. 4⼩小时"></div>
+            <div><input type="radio" name="sex4" value="" title="F. 4⼩小时以上"></div>
+        </div>
+        <div class="layui-form-item">
+            <label>5. 孩子课外接触较多的英文资源（多选）（选“缺乏”得0分，其它得2分，不累 加）</label>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="缺乏"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="英文⼉儿歌／动画"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="英文原版书"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="英文新闻"></div>
+        </div>
+        <div class="layui-form-item">
+            <label>6. 孩子课外英语阅读材料 （多选）（选“没有阅读。。。”得0分，其余绘本1 分、初级章节书2分、英文原版小说4分，如果多选，分数累加。） </label>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="没有阅读过课外原版书籍"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="英文绘本"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="英文初级章节书"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="英文原版⼩小说"></div>
+        </div>
+        <div class="layui-form-item">
+            <label>7. 孩子阅读过哪些系列的书籍（多选）（不设分值） </label>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="I can Read"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="Step into Reading"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="Oxford Reading Tree"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="Usborne Reading Collection"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="Magic Tree House"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="Junie B. Jones"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="Harry Potter"></div>
+            <div class="pt-10"><input type="text" class="input-text1" placeholder="Others"></div>
+        </div>
+        <div class="layui-form-item">
+            <label>8. 孩子感兴趣的题材（多选）（不设分值） </label>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="探险类"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="科技类"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="科普类"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="自然科学类 "></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="科幻故事类"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="校园⽣生活类"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="⽂文化类"></div>
+            <div><input type="checkbox" name="like1[write]" lay-skin="primary" title="其他"></div>
+        </div>
+        <div class="layui-form-item">
+            <label>9. 如果孩子有⾃自学，或者其他学习情况，可在下方填写信息告诉我们（选填）</label>
+            <div><textarea name="desc" placeholder="请输入内容" class="layui-textarea"></textarea></div>
+        </div>
+        <div class="layui-form-item">
+            <label>10. 填写孩子真实信息</label>
+            <div>
+                <div class="layui-input-inline">
+                    <select name="quiz1">
+                        <option value="">请选择省</option>
+                        <option value="浙江">浙江省</option>
+                        <option value="你的工号">江西省</option>
+                        <option value="你最喜欢的老师">福建省</option>
+                    </select>
+                </div>
+                <div class="layui-input-inline">
+                    <select name="quiz2">
+                        <option value="">请选择市</option>
+                        <option value="杭州">杭州</option>
+                        <option value="宁波">宁波</option>
+                        <option value="温州">温州</option>
+                        <option value="温州">台州</option>
+                        <option value="温州">绍兴</option>
+                    </select>
+                </div>
+                <div class="layui-input-inline">
+                    <select name="quiz3">
+                        <option value="">请选择县/区</option>
+                        <option value="西湖区">西湖区</option>
+                        <option value="余杭区">余杭区</option>
+                        <option value="拱墅区">临安市</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label>11. 填写资料</label>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">英文名</label>
+            <div class="layui-input-block">
+                <input type="text" name="title" autocomplete="off" placeholder="请输入英文名" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">生日</label>
+            <div class="layui-input-block">
+                <input type="text" name="date" id="date" autocomplete="off" class="layui-input" onclick="layui.laydate({elem: this})">
+            </div>
+        </div>
+        <div class="layui-form-item" pane="">
+            <label class="layui-form-label">性别</label>
+            <div class="layui-input-block">
+                <input type="radio" name="sex" value="男" title="男" checked="">
+                <input type="radio" name="sex" value="女" title="女">
+            </div>
+        </div>
+        <div class="text-center pt-10">
+            <button class="layui-btn layui-btn-normal questionnaire-btn" lay-submit lay-filter="formDemo">立即提交</button>
+        </div>
+    </form>
+</div>
+<div class="clear" style="height: 80px;"></div>
+<div class="ym-footer" id="footer">
+    <div class="main">
+        <div class="container">
+            <div class="content clearfix">
+                <div class="logo-slogan">
+                    <img class="img-responsive logo" src="img/logo1.png" alt="少年商学院">
+                    <div class="slogan">读原版，是提升英语能力最有效学习方法</div>
+                </div>
+                <div class="contact">
+                    <div class="links">
+                        <a class="item" href="javascript:" target="_blank">
+                            <i class="fa fa-weixin"></i>
+                            <span class="name">微信</span>
+                        </a>
+                        <a class="item" href="javascript:" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                            <span class="name">HiRead@HiRead.com</span>
+                        </a>
+                    </div>
+                    <div class="tel">
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:400888888">400-888-8888</a>
+                    </div>
+                </div>
+                <div class="qr-code">
+                    <div class="item">
+                        <img class="img-responsive" src="img/wx.png" alt="服务号">
+                        <div class="name">移动课堂</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="footer-nav">
+        <div class="list">
+            <a class="item" href="index.html">首页</a>
+            <a class="item" href="javascript:">经典课程</a>
+            <a class="item" href="javascript:">课程优势</a>
+            <a class="item" href="javascript:">为什么读原版</a>
+            <a class="item" href="javascript:">机构合作</a>
+        </div>
+    </nav>
+    <div class="bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="copy">
+                    © 2013-2017 Hi Read All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="layui/lay/dest/layui.all.js"></script>
+<script src="js/public.js"></script>
+<script src="js/video.js"></script>
+<script>
+
+</script>
+</html>
