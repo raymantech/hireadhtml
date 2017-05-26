@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b025155c-52fc-47b5-b138-d979248d732e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learning-class-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learning-class.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/backImg.png" afterPath="$PROJECT_DIR$/img/backImg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/class_img1.png" afterPath="$PROJECT_DIR$/img/class_img1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/img22.jpg" afterPath="$PROJECT_DIR$/img/img22.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class-choice.html" afterPath="$PROJECT_DIR$/class-choice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class-drag.html" afterPath="$PROJECT_DIR$/class-drag.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class-game.html" afterPath="$PROJECT_DIR$/class-game.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/class.css" afterPath="$PROJECT_DIR$/css/class.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.css" afterPath="$PROJECT_DIR$/css/css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/video-js.css" afterPath="$PROJECT_DIR$/css/video-js.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/public.js" afterPath="$PROJECT_DIR$/js/public.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning-class-list.html" afterPath="$PROJECT_DIR$/learning-class-list.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,23 +80,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="learning-class-list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learning-class-list.html">
+      <file leaf-file-name="project.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="83" column="95" lean-forward="false" selection-start-line="83" selection-start-column="95" selection-end-line="83" selection-end-column="95" />
-              <folding />
+            <state relative-caret-position="505">
+              <caret line="68" column="124" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="124" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="learning-class-list.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learning-class-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="482" column="37" lean-forward="false" selection-start-line="482" selection-start-column="37" selection-end-line="482" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#2;n#tr#5;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#2;n#tr#6;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#2;n#tr#7;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#2;n#tr#8;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="793">
-              <caret line="698" column="39" lean-forward="false" selection-start-line="698" selection-start-column="39" selection-end-line="698" selection-end-column="39" />
+            <state relative-caret-position="831">
+              <caret line="700" column="28" lean-forward="false" selection-start-line="700" selection-start-column="28" selection-end-line="700" selection-end-column="28" />
               <folding>
-                <marker date="1495814472635" expanded="true" signature="235:259" ph="{...}" />
+                <marker date="1495815511366" expanded="true" signature="235:259" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -148,8 +159,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.product-header-block .block-r .date</find>
-      <find>.product-header-block .block-r .title</find>
       <find>.product-header-block .block-r</find>
       <find>.product-header-block .block-r .block-b ul li</find>
       <find>.nav-tabs2&gt;li</find>
@@ -178,6 +187,8 @@
       <find>&lt;li&gt;&lt;a href=&quot;javascript:&quot;&gt;学习中心&lt;/a&gt;&lt;/li&gt;</find>
       <find>&lt;a href=&quot;javascript:&quot; class=&quot;layui-btn layui-btn-small layui-btn-primary2&quot;&gt;课程详情&lt;/a&gt;</find>
       <find>.top-news</find>
+      <find>fa fa-cloud-download</find>
+      <find>jiathis_style clear-fix</find>
     </findStrings>
     <replaceStrings>
       <replace>#D62D40</replace>
@@ -237,8 +248,8 @@
         <option value="$PROJECT_DIR$/learning.html" />
         <option value="$PROJECT_DIR$/js/public.js" />
         <option value="$PROJECT_DIR$/learning-class.html" />
-        <option value="$PROJECT_DIR$/learning-class-list.html" />
         <option value="$PROJECT_DIR$/css/css.css" />
+        <option value="$PROJECT_DIR$/learning-class-list.html" />
       </list>
     </option>
   </component>
@@ -426,12 +437,12 @@
       <workItem from="1495636892146" duration="635000" />
       <workItem from="1495715728440" duration="6165000" />
       <workItem from="1495723339216" duration="2376000" />
-      <workItem from="1495803341559" duration="10728000" />
+      <workItem from="1495803341559" duration="12227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103766000" />
+    <option name="totallyTimeSpent" value="105265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,16 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="342" column="24" lean-forward="false" selection-start-line="342" selection-start-column="24" selection-end-line="427" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -844,20 +845,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning-class-list.html">
+    <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="83" column="95" lean-forward="false" selection-start-line="83" selection-start-column="95" selection-end-line="83" selection-end-column="95" />
-          <folding />
+        <state relative-caret-position="831">
+          <caret line="700" column="28" lean-forward="false" selection-start-line="700" selection-start-column="28" selection-end-line="700" selection-end-column="28" />
+          <folding>
+            <marker date="1495815511366" expanded="true" signature="235:259" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.css">
+    <entry file="file://$PROJECT_DIR$/project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="698" column="39" lean-forward="false" selection-start-line="698" selection-start-column="39" selection-end-line="698" selection-end-column="39" />
+        <state relative-caret-position="505">
+          <caret line="68" column="124" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="124" />
           <folding>
-            <marker date="1495814472635" expanded="true" signature="235:259" ph="{...}" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-class-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="482" column="37" lean-forward="false" selection-start-line="482" selection-start-column="37" selection-end-line="482" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#5;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#6;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#7;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#8;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
