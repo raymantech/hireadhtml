@@ -32,32 +32,32 @@ function AutoScroll(obj) {
     });
 }
 $(function () {
-    setInterval('AutoScroll(".scrollDiv")', 3000)
+    setInterval('AutoScroll(".scrollDiv")', 3000);
 
     //user left menu
     //Initialize the page menu
-    $(".navMenu a").each(function (i, e) {
+    $(".learning-nav a").each(function (i, e) {
         if (window.location.href.indexOf($(e).attr("abbr")) >= 0) {
             $(e).addClass("selected");
         }
     });
-    //Initialize the selected menu
-    $(".navMenu dl").each(function () {
-        if ($(this).hasClass('selected')) {
-            $(this).find("dt a").css('color', '#333').find("i").removeClass("fa-chevron-down").addClass("fa-chevron-up");
-            $(this).find("dd").slideDown(100);
-        }
-    });
-    //Menu display and hide
-    $(".navMenu dt").click(function () {
-        if ($(this).find("i").hasClass('fa-chevron-down')) {
-            $(this).find("a").css('color', '#333').find("i").removeClass("fa-chevron-down").addClass("fa-chevron-up");
-            $(this).parent().find('dd').slideDown(100);
-        } else {
-            $(this).find("a").css('color', '#333').find("i").removeClass("fa-chevron-up").addClass("fa-chevron-down");
-            $(this).parent().find('dd').slideUp(100);
-        }
-    });
+    // //Initialize the selected menu
+    // $(".navMenu dl").each(function () {
+    //     if ($(this).hasClass('selected')) {
+    //         $(this).find("dt a").css('color', '#333').find("i").removeClass("fa-chevron-down").addClass("fa-chevron-up");
+    //         $(this).find("dd").slideDown(100);
+    //     }
+    // });
+    // //Menu display and hide
+    // $(".navMenu dt").click(function () {
+    //     if ($(this).find("i").hasClass('fa-chevron-down')) {
+    //         $(this).find("a").css('color', '#333').find("i").removeClass("fa-chevron-down").addClass("fa-chevron-up");
+    //         $(this).parent().find('dd').slideDown(100);
+    //     } else {
+    //         $(this).find("a").css('color', '#333').find("i").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+    //         $(this).parent().find('dd').slideUp(100);
+    //     }
+    // });
     //选择
     $(".btn-choice").click(function () {
         $(this).addClass('btn-choice1').siblings().removeClass('btn-choice1');

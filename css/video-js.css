@@ -11,7 +11,7 @@
 .vjs-default-skin.vjs-using-native-controls .vjs-control-bar{display:none}
 @media \0screen{.vjs-default-skin.vjs-user-inactive.vjs-playing .vjs-control-bar:before{content:""}
 }.vjs-default-skin .vjs-control{outline:none;position:relative;float:left;text-align:center;margin:0;padding:0;height:3.0em;width:4em}
-.vjs-default-skin .vjs-control:before{font-family:VideoJS;font-size:1.5em;line-height:2.3;position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;text-shadow:1px 1px 1px rgba(0,0,0,0.5)}
+.vjs-default-skin .vjs-control:before{font-family:VideoJS;font-size:1.5em;line-height:2.3;position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;text-shadow:1px 1px 1px rgba(0,0,0,0.5);color: #49E5FE;}
 .vjs-default-skin .vjs-control:focus:before,.vjs-default-skin .vjs-control:hover:before{text-shadow:0 0 1em #ffffff}
 .vjs-default-skin .vjs-control:focus{}
 .vjs-default-skin .vjs-control-text{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
@@ -26,7 +26,7 @@
 .vjs-default-skin .vjs-volume-control{width:5em;float:right}
 .vjs-default-skin .vjs-volume-bar{width:5em;height:0.6em;margin:1.1em auto 0;border-radius:5px}
 .vjs-default-skin .vjs-volume-menu-button .vjs-menu-content{height:2.9em}
-.vjs-default-skin .vjs-volume-level{position:absolute;top:0;left:0;height:0.5em;background:#d62d40 repeat;border-radius:5px}
+.vjs-default-skin .vjs-volume-level{position:absolute;top:0;left:0;height:0.5em;background:#48FEAB repeat;border-radius:5px}
 .vjs-default-skin .vjs-volume-bar .vjs-volume-handle{width:0.5em;height:0.5em}
 .vjs-default-skin .vjs-volume-handle:before{font-size:0.9em;top:-0.2em;left:-0.2em;width:1em;height:1em}
 .vjs-default-skin .vjs-volume-menu-button .vjs-menu .vjs-menu-content{width:6em;left:-4em}
@@ -34,7 +34,7 @@
 .vjs-default-skin:hover .vjs-progress-control{font-size:.9em;-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-o-transition:all 0.2s;transition:all 0.2s}
 .vjs-default-skin .vjs-progress-holder{height:100%}
 .vjs-default-skin .vjs-progress-holder .vjs-play-progress,.vjs-default-skin .vjs-progress-holder .vjs-load-progress{position:absolute;display:block;height:100%;margin:0;padding:0;left:0;top:0}
-.vjs-default-skin .vjs-play-progress{background:#d62d40 repeat;border-radius:5px}
+.vjs-default-skin .vjs-play-progress{background:#48FEAB repeat;border-radius:5px}
 .vjs-default-skin .vjs-load-progress{background:#646464;background:rgba(255,255,255,0.4)}
 .vjs-default-skin .vjs-seek-handle{width:1.5em;height:100%}
 .vjs-default-skin .vjs-seek-handle:before{padding-top:0.1em}

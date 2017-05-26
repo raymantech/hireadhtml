@@ -204,7 +204,7 @@ a.class-btn i{}
 .choice-title h4{font-size: 40px;line-height: 1.8em;}
 .choice-title p{font-size: 16px;}
 
-.choice-tm{text-align: center;padding: 60px 10px;}
+.choice-tm{text-align: center;padding: 50px 10px;}
 .pt-b10{padding: 10px;}
 .choice-tm-list{display: inline-block;border: solid 4px #eee;width: 430px;height: 320px;position: relative;cursor: pointer;color: #999;padding: 28px;margin: 0 10px;}
 .choice-tm-content{font-size: 60px;line-height: 2em;background: #f6f6f6;height: 100%;}

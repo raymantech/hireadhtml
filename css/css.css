@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,dt{font-weight: normal;marg
 .top-left .top1{padding-right: 10px;position: relative;}
 .top-right{text-align: right;}
 .top-right .top1{padding-right: 10px;}
-.top-news{position: absolute;top: 3px;right: 2px;background: #D62D40;color: #fff;border-radius: 20px;line-height: 1.2em;padding: 0 4px;}
+.top-news{position: absolute;top: 3px;right: 9px;background: #D62D40;color: #fff;border-radius: 20px;line-height: 1.2em;padding: 0 4px;}
 
 .scroll-wp{background: #fafafa;}
 .index-new{padding: 10px 0;}
@@ -645,3 +645,56 @@ a.download-url{cursor: pointer;}
 .layui-form-radio i:hover, .layui-form-radioed i{color: #1E9FFF;}
 .layui-form-select dl dd.layui-this{background-color: #1E9FFF;}
 .layui-form-checkbox[lay-skin=primary]:hover i{border-color: #1E9FFF;}
+.icon-img1{display: inline-block;padding: 0 5px;}
+.icon-img1 img{vertical-align: top;margin-top: 5px;}
+.choice-title1{color: #666;}
+.link-icon{background: url(../img/img30.png) no-repeat;width: 60px;height: 60px;}
+.choice-tm-hover .link-icon{background: url(../img/img29.png) no-repeat;}
+
+.learning-title1{font-size: 18px;padding-bottom: 20px;}
+.learning-nav a{}
+.page-wp{padding: 40px 0 50px;}
+.learning-nav{padding-right: 10px;}
+.learning-nav a{padding: 15px 10px 15px 30px;color: #666;display: block;}
+.learning-nav a:hover{background: #f5f5f5;}
+.learning-nav a i{padding-right: 10px;color: #999;}
+a.selected{background: #D62D40;color: #fff;}
+a.selected i{color: #fff;}
+a.selected:hover{background: #D62D40;color: #fff;}
+.learning-title2{font-size: 24px;border-left: solid 3px #D62D40;padding-left: 15px;}
+.pt-30{padding-top: 30px;}
+.layui-tab-title1 li{margin-right: 5px;padding: 0 24px;position: relative;}
+.layui-tab-title1 li:hover{background: #f5f5f5;}
+.layui-tab-brief>.layui-tab-title1 .layui-this{background: #0078d6;color: #fff;}
+.layui-tab-brief>.layui-tab-title1 .layui-this:after{border-bottom: none;}
+.layui-tab-title1{border-bottom: none;}
+
+.course-item{-webkit-transition:all .3s ease;transition:all .3s ease;position:relative;margin-bottom: 30px;}
+.course-item .course-img{position:relative;overflow:hidden}
+.course-item .course-img .img-responsive{width:100%}
+.course-item .course-info{padding:20px 13px 0;border:1px solid #eee;border-top:0;min-height:120px}
+.course-item .title{font-size:14px;margin:0 0 8px;display:block;color:#333;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.course-item .metas{padding:0 0 10px;color:#666}
+.course-item .date{margin-bottom:5px;line-height:1;font-size:0}
+.course-item .date span{display:inline-block;vertical-align:bottom;font-size:14px}
+.course-item .date .ym-icon{vertical-align:middle;margin-right:8px}
+.course-item .price-widget{display:inline-block;font-size:19px;height:40px;line-height:40px}
+.course-item .price-widget .price-block{line-height:20px}
+.course-item .price-widget .price-block .price{font-size:14px}
+.course-item .course-item-cover{position:absolute;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,.4)}
+.course-item .course-item-cover .cover-content{position:absolute;top:15%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:80px;height:80px;line-height:80px;text-align:center;border-radius:999px;background:#eee}
+.data-color{color: #d62d40;padding-top: 5px;}
+a.layui-btn-primary1{border: 1px solid #d62d40;background-color: #fff;color: #d62d40;}
+a.layui-btn-primary1:hover{border: 1px solid #d62d40;background-color: #fff;color: #d62d40;}
+a.layui-btn-primary2{border: 1px solid #4489d6;background-color: #fff;color: #4489d6;}
+a.layui-btn-primary2:hover{border: 1px solid #4489d6;background-color: #fff;color: #4489d6;}
+.layui-tab-content{padding: 30px 0 0 0;}
+.tab-pr-title{color: #0078d6;padding-right: 10px;font-size: 14px;}
+.tab-pr-title2{padding-right: 10px;font-size: 14px;}
+.tab-pr-color1{padding-right: 10px;}
+.tab-pr-color2{padding-right: 10px;color: #4bd37b;}
+.tab-pr-color2 i{padding-left: 10px;}
+.learning-title3{font-size: 18px;font-weight: bold;}
+.learning-title3-text{font-size: 14px;color: #999;font-weight: normal;}
+.btn-po1{position: absolute;left: 341px;bottom: 0;}
+.position-r{position: relative;}
