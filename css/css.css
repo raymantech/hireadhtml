@@ -604,7 +604,7 @@ label{font-weight: normal;}
 .course-material-list th:nth-child(1){padding-left:10px;width:36%}
 .course-material-list th:nth-child(2){width:10%}
 .course-material-list th:nth-child(3){width:54%}
-.course-material-list .material-item:nth-child(odd){background:#fafafa}
+.course-material-list .material-item:nth-child(odd){background:#f8f8f8}
 .course-material-list .material-item td{padding:24px 0}
 .course-material-list .material-item td:nth-child(1){padding-left:10px}
 .course-material-list .material-item td:nth-child(3){padding-right:24px;text-align:right}
@@ -657,7 +657,7 @@ a.download-url{cursor: pointer;}
 .learning-nav{padding-right: 10px;}
 .learning-nav a{padding: 15px 10px 15px 30px;color: #666;display: block;}
 .learning-nav a:hover{background: #f5f5f5;}
-.learning-nav a i{padding-right: 10px;color: #999;}
+.learning-nav a i{padding-right: 10px;color: #999;width: 28px;text-align: center;}
 a.selected{background: #D62D40;color: #fff;}
 a.selected i{color: #fff;}
 a.selected:hover{background: #D62D40;color: #fff;}
@@ -699,3 +699,22 @@ a.layui-btn-primary2:hover{border: 1px solid #4489d6;background-color: #fff;colo
 .btn-po1{position: absolute;left: 341px;bottom: 0;}
 .position-r{position: relative;}
 .pt-r10{padding-right: 10px;}
+
+.layui-form1 .layui-form-label{width: 120px;}
+.layui-form1 .layui-input-block{margin-left: 120px;}
+.pt-r01{padding-right: 24.8%;}
+.layui-form-item .layui-input-inline:last-child{margin-right: 0;}
+.member-title span{padding-right: 10px;}
+.ma-news li{line-height: 70px;padding: 0 20px;}
+.ma-news li:nth-child(odd){background: #f8f8f8;}
+.ma-news li i{padding-right: 10px;}
+.news-btn a{color: #d62d40;text-decoration: none;}
+.news-btn a:hover{text-decoration: underline;}
+.news-title{text-align: center;line-height: 3em;font-size: 18px;}
+.news-sm{color: #999;text-align: center;}
+.news-content{padding-top: 15px;line-height: 2.5em;}
+.text-it{text-indent: 2em;}
+.news-content p{padding-bottom: 10px;}
+.ma-jg{padding: 0 16%;}
+.ma-jg li{width: 50%;padding: 0 10px;margin-bottom: 20px;float: left;text-align: center;}
+.ma-jg span{border: solid 1px #eee;}

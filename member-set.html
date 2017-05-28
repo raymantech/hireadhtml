@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi Read</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/video-js.css">
+    <link rel="stylesheet" href="css/style.css">
+<body>
+<div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Hi Read"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav nav1">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="course-list.html">经典课程</a></li>
+                <li><a href="marketing-new.html">课程优势</a></li>
+                <li><a href="marketing-new.html">为什么读原版</a></li>
+                <li><a href="marketing-jg.html">机构合作</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right nav2">
+                <li id="fat-menu" class="dropdown">
+                    <a id="drop3" href="member-set.html" class="dropdown-toggle dropdown-toggle1" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="member-img"><img src="img/img.jpg" alt=""></span>
+                        <span>admin</span>
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="drop3">
+                        <li><a href="member-set.html"><i class="fa fa-cog"></i>账户设置</a></li>
+                        <li><a href="login.html"><i class="fa fa-power-off"></i>退出</a></li>
+                    </ul>
+                </li>
+                <li><a href="learning-class.html">学习中心</a></li>
+            </ul>
+            <!--<ul class="nav navbar-nav navbar-right nav-login">
+                <li><a href="login.html">登录</a></li>
+                <li><a href="register.html">注册</a></li>
+            </ul>-->
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<div class="container">
+    <div class="row page-wp">
+        <div class="col-md-2">
+            <div class="learning-title1">会员中心</div>
+            <ul class="learning-nav">
+                <li><a href="member-set.html" abbr="member-set"><i class="fa fa-cog"></i>个人设置</a></li>
+                <li><a href="member-jf.html" abbr="member-jf"><i class="fa fa-database"></i>我的积分</a></li>
+                <li><a href="member-yq.html" abbr="member-yq"><i class="fa fa-hand-peace-o"></i>我的邀请</a></li>
+                <li><a href="member-rs.html" abbr="member-rs"><i class="fa fa-certificate"></i>大使认证</a></li>
+                <li><a href="member-yj.html" abbr="member-yj"><i class="fa fa-line-chart"></i>我的业绩</a></li>
+                <li><a href="member-yyq.html" abbr="member-yyq"><i class="fa fa-share-alt-square"></i>有奖邀请</a></li>
+                <li><a href="member-gyq.html" abbr="member-gyq"><i class="fa fa-american-sign-language-interpreting"></i>成功邀请</a></li>
+                <li><a href="member-jl.html" abbr="member-jl"><i class="fa fa-building-o"></i>提现记录</a></li>
+                <li><a href="member-mm.html" abbr="member-mm"><i class="fa fa-key fa-fw"></i>修改密码</a></li>
+            </ul>
+        </div>
+        <div class="col-md-10">
+            <div class="learning-title2">个人设置</div>
+            <div class="pt-30 clear-fix">
+                <form class="layui-form layui-form1 pt-r01" action="">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">用户名</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" placeholder="Hi Read" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">家长手机号码</label>
+                        <div class="layui-form-mid layui-word-aux"><span class="pt-r10">183****4422</span> （已绑定）</div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">孩子姓名</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">孩子性别</label>
+                        <div class="layui-input-block">
+                            <input type="radio" name="sex" value="男" title="男">
+                            <input type="radio" name="sex" value="女" title="女" checked>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">孩子出生年月</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="date" id="date" lay-verify="date" placeholder="yyyy-mm-dd" autocomplete="off" class="layui-input" onclick="layui.laydate({elem: this})">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">联动选择框</label>
+                        <div class="layui-input-inline">
+                            <select name="quiz1">
+                                <option value="">请选择省</option>
+                                <option value="浙江" selected="">浙江省</option>
+                                <option value="你的工号">江西省</option>
+                                <option value="你最喜欢的老师">福建省</option>
+                            </select>
+                        </div>
+                        <div class="layui-input-inline">
+                            <select name="quiz2">
+                                <option value="">请选择市</option>
+                                <option value="杭州">杭州</option>
+                                <option value="宁波" disabled="">宁波</option>
+                                <option value="温州">温州</option>
+                                <option value="温州">台州</option>
+                                <option value="温州">绍兴</option>
+                            </select>
+                        </div>
+                        <div class="layui-input-inline">
+                            <select name="quiz3">
+                                <option value="">请选择县/区</option>
+                                <option value="西湖区">西湖区</option>
+                                <option value="余杭区">余杭区</option>
+                                <option value="拱墅区">临安市</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">学校类型</label>
+                        <div class="layui-input-block">
+                            <select name="city" lay-verify="required">
+                                <option value=""></option>
+                                <option value="0">小学</option>
+                                <option value="1">中学</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">所在学校</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">孩子所在年级</label>
+                        <div class="layui-input-block">
+                            <select name="city" lay-verify="required">
+                                <option value=""></option>
+                                <option value="13">学前</option>
+                                <option value="12">十二年级</option>
+                                <option value="11">十一年级</option>
+                                <option value="10">十年级</option>
+                                <option value="9">九年级</option>
+                                <option value="8">八年级</option>
+                                <option value="7">七年级</option>
+                                <option value="6">六年级</option>
+                                <option value="5">五年级</option>
+                                <option value="4">四年级</option>
+                                <option value="3">三年级</option>
+                                <option value="2">二年级</option>
+                                <option value="1">一年级</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">孩子个性签名</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="" class="layui-input">
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <button class="layui-btn layui-btn-normal" lay-submit lay-filter="formDemo">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="ym-footer" id="footer">
+    <div class="main">
+        <div class="container">
+            <div class="content clearfix">
+                <div class="logo-slogan">
+                    <img class="img-responsive logo" src="img/logo1.png" alt="少年商学院">
+                    <div class="slogan">读原版，是提升英语能力最有效学习方法</div>
+                </div>
+                <div class="contact">
+                    <div class="links">
+                        <a class="item" href="javascript:" target="_blank">
+                            <i class="fa fa-weixin"></i>
+                            <span class="name">微信</span>
+                        </a>
+                        <a class="item" href="javascript:" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                            <span class="name">HiRead@HiRead.com</span>
+                        </a>
+                    </div>
+                    <div class="tel">
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:400888888">400-888-8888</a>
+                    </div>
+                </div>
+                <div class="qr-code">
+                    <div class="item">
+                        <img class="img-responsive" src="img/wx.png" alt="服务号">
+                        <div class="name">移动课堂</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="footer-nav">
+        <div class="list">
+            <a class="item" href="index.html">首页</a>
+            <a class="item" href="javascript:">经典课程</a>
+            <a class="item" href="javascript:">课程优势</a>
+            <a class="item" href="javascript:">为什么读原版</a>
+            <a class="item" href="javascript:">机构合作</a>
+        </div>
+    </nav>
+    <div class="bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="copy">
+                    © 2013-2017 Hi Read All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="layui/lay/dest/layui.all.js"></script>
+<script src="js/public.js"></script>
+<script src="js/video.js"></script>
+<script>
+
+</script>
+</html>
