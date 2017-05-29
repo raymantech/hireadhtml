@@ -69,14 +69,7 @@ $(function () {
     }, function () {
         $(this).removeClass('top-phone-hover');
     });
-    $(".scroll").niceScroll({
-        cursorcolor: "rgba(0,0,0,.3)",
-        cursoropacitymax: 1,
-        touchbehavior: false,
-        cursorwidth: "5px",
-        cursorborder: "0",
-        cursorborderradius: "0"
-    });
+
 });
 (function ($, window, undefined) {
 // outside the scope of the jQuery plugin to
@@ -119,4 +112,44 @@ $(function () {
     $('.questionnaire-btn').click(function () {
 
     })
+
+});
+
+
+$(function(){
+    $(function () {
+
+        $('.order-add-s').click(function () {
+            layer.confirm('确定要删除吗？', {
+                title: false,
+                closeBtn: 0,
+                btn: ['确定','取消'] //按钮
+            }, function(){
+                layer.msg('删除成功！', {icon: 1});
+            }, function(){
+                layer.msg('取消成功！', {
+                });
+            });
+        })
+    });
+    $(".order-add-g").click(function(){
+        layer.open({
+            type: 1,
+            title: false,
+            closeBtn: 0,
+            shadeClose: false,
+            area: ['auto', 'auto'],
+            content: $('.popup-content')
+
+        })
+    });
+    $(".layui-layer-close").click(function(){
+        $('.popup-content').hide();
+    });
+    $(".order-add-wp").click(function () {
+        $(this).addClass('order-add-link').siblings().removeClass('order-add-link');
+    });
+    $(".order-link").click(function () {
+        $(this).addClass('order-link-hover').siblings().removeClass('order-link-hover');
+    });
 });

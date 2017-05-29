@@ -261,3 +261,5 @@ a.class-btn i{}
 .mask_info{font-size: 40px;color: red;text-align: center;background: #fff;width: 500px;height: 300px;line-height: 300px;margin: 200px auto;}
 .game-pop{padding-top: 60px;}
 .game-pop1 a{background: #D62D40;color: #fff;font-size: 16px;padding: 10px 35px;line-height: 1.5em;}
+
+.multiselect-left{padding-left: 42%;}

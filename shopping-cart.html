@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi Read</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/video-js.css">
+    <link rel="stylesheet" href="css/style.css">
+<body style="background: #eee;">
+<div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Hi Read"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav nav1">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="course-list.html">经典课程</a></li>
+                <li><a href="marketing-new.html">课程优势</a></li>
+                <li><a href="marketing-new.html">为什么读原版</a></li>
+                <li><a href="marketing-jg.html">机构合作</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right nav2">
+                <li id="fat-menu" class="dropdown">
+                    <a id="drop3" href="member-set.html" class="dropdown-toggle dropdown-toggle1" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="member-img"><img src="img/img.jpg" alt=""></span>
+                        <span>admin</span>
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="drop3">
+                        <li><a href="member-set.html"><i class="fa fa-cog"></i>账户设置</a></li>
+                        <li><a href="login.html"><i class="fa fa-power-off"></i>退出</a></li>
+                    </ul>
+                </li>
+                <li><a href="learning-class.html">学习中心</a></li>
+            </ul>
+            <!--<ul class="nav navbar-nav navbar-right nav-login">
+                <li><a href="login.html">登录</a></li>
+                <li><a href="register.html">注册</a></li>
+            </ul>-->
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<div class="container cart-wp1">
+    <div class="cart-wp clear-fix">
+        <div class="cart-title"><i class="fa fa-shopping-cart"></i>我的购物车</div>
+        <div class="layui-form">
+            <table class="layui-table cart-table" lay-skin="line">
+                <thead>
+                <tr>
+                    <th><span class="cart-pt">商品名称</span></th>
+                    <th>单价</th>
+                    <th>数量</th>
+                    <th>小计</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <span class="cart-pt"></span>
+                        <input type="checkbox" name="cart1" lay-skin="primary" checked="">
+                        <label class="cart-pt1">
+                            <span class="cart-img"><img src="img/img25.jpg" alt=""></span>
+                            <span class="cart-center">创业少年Kidpreneur<br/>北京府学胡同小学专场（第二期）</span>
+                        </label>
+                    </td>
+                    <td>￥899.00</td>
+                    <td>1</td>
+                    <td>￥899.00</td>
+                    <td><span class="cart-close order-add-s"><i class="fa fa-times-circle"></i></span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <div class="cart-pt2">
+                            <div class="cart-color1"><input type="checkbox" name="cart1" lay-skin="primary" title="优惠券200" checked=""></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="cart-pt"></span>
+                        <input type="checkbox" name="cart1" lay-skin="primary">
+                        <label class="cart-pt1">
+                            <span class="cart-img"><img src="img/img25.jpg" alt=""></span>
+                            <span class="cart-center">创业少年Kidpreneur<br/>北京府学胡同小学专场（第二期）</span>
+                        </label>
+                    </td>
+                    <td>￥899.00</td>
+                    <td>1</td>
+                    <td>￥899.00</td>
+                    <td><span class="cart-close order-add-s"><i class="fa fa-times-circle"></i></span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <div class="cart-pt2">
+                            <div class="cart-color1"><input type="checkbox" name="cart1" lay-skin="primary" title="优惠券200"></div>
+                            <div class="pt-10"><input type="checkbox" name="cart1" lay-skin="primary" title="+50元，某某视频课程"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <div class="cart-bottom clear-fix">
+                            <div class="fl">
+                                <input type="checkbox" name="" class="cart-all" lay-skin="primary" lay-filter="allChoose" title="全选">
+                                <span class="cart-all-text">共 <span class="cart-color2">3</span> 件商品，已选择 <span class="cart-color2">3</span>  件商品</span>
+                            </div>
+                            <div class="fr text-right">
+                                <span class="cart-jg">总计（不含运费） : <span class="cart-color3">￥2498.00</span><br/>活动已优惠￥0.00</span>
+                                <a href="shopping-order.html" class="cart-btn">前往结算</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+<div class="ym-footer" id="footer">
+    <div class="main">
+        <div class="container">
+            <div class="content clearfix">
+                <div class="logo-slogan">
+                    <img class="img-responsive logo" src="img/logo1.png" alt="少年商学院">
+                    <div class="slogan">读原版，是提升英语能力最有效学习方法</div>
+                </div>
+                <div class="contact">
+                    <div class="links">
+                        <a class="item" href="javascript:" target="_blank">
+                            <i class="fa fa-weixin"></i>
+                            <span class="name">微信</span>
+                        </a>
+                        <a class="item" href="javascript:" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                            <span class="name">HiRead@HiRead.com</span>
+                        </a>
+                    </div>
+                    <div class="tel">
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:400888888">400-888-8888</a>
+                    </div>
+                </div>
+                <div class="qr-code">
+                    <div class="item">
+                        <img class="img-responsive" src="img/wx.png" alt="服务号">
+                        <div class="name">移动课堂</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="footer-nav">
+        <div class="list">
+            <a class="item" href="index.html">首页</a>
+            <a class="item" href="javascript:">经典课程</a>
+            <a class="item" href="javascript:">课程优势</a>
+            <a class="item" href="javascript:">为什么读原版</a>
+            <a class="item" href="javascript:">机构合作</a>
+        </div>
+    </nav>
+    <div class="bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="copy">
+                    © 2013-2017 Hi Read All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="layui/lay/dest/layui.all.js"></script>
+<script src="js/public.js"></script>
+<script src="js/video.js"></script>
+<script>
+
+</script>
+</html>
