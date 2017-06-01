@@ -285,7 +285,7 @@ a.course-3:hover img{border-color: #457093;}
 .product-header-block .block-l .cover-img:active .video-tip,.product-header-block .block-l .cover-img:hover .video-tip,.product-header-block .block-l a{display:block}
 .product-header-block{position:relative;margin:0 auto 25px;border:1px solid #eee}
 .product-header-block .block-r{position:relative}
-.product-header-block .block-l{position:relative;width:400px}
+.product-header-block .block-l{position:relative;width:400px;height: 400px;text-align: center;}
 .product-header-block .block-l .cover-img{position:absolute;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,.25)}
 .product-header-block .block-l .cover-img:active,.product-header-block .block-l .cover-img:hover{background:rgba(0,0,0,.5);-webkit-transition:all .3s ease;transition:all .3s ease}
 .product-header-block .block-l .cover-img:active .ym-icon-play-btn-normal,.product-header-block .block-l .cover-img:hover .ym-icon-play-btn-normal{background-position:0 -40px}
@@ -296,7 +296,7 @@ a.course-3:hover img{border-color: #457093;}
 .product-header-block .block-l .cover-share ul{margin:0 25px 0 0;padding:0;line-height:50px;float:right}
 .product-header-block .block-l .cover-share ul li{margin-left:10px}
 .product-header-block .block-l .cover-share ul li a{display:inline-block}
-.product-header-block .block-l img{width:100%}
+.product-header-block .block-l img{max-width:100%;max-height: 400px;}
 .product-header-block .block-r{overflow:hidden;width:738px;padding:20px 20px 0 20px;position: relative;}
 .product-header-block .block-r .title{margin:0 0 2px;font-size:24px;font-weight:400;max-height:55px;overflow:hidden}
 .product-header-block .block-r .title a{color:#333;display:block}
@@ -363,8 +363,8 @@ a.btn-warning2:hover{color: #fff;background: #4489d6;}
 
 .course-item-summary{-webkit-transition:all .3s ease;transition:all .3s ease}
 .course-item-summary a{display:block}
-.course-item-summary .course-img{min-height:304px}
-.course-item-summary .course-img img{width:100%}
+.course-item-summary .course-img{min-height:304px;text-align: center;}
+.course-item-summary .course-img img{max-height: 555px;}
 .course-item-summary .tags{left:4px}
 .course-item-summary .course-info{padding:30px 30px 53px;height:230px}
 .course-item-summary .title{color:#333;font-size:26px;display:block;overflow:hidden;line-height:1;margin-bottom:22px}
@@ -769,3 +769,7 @@ a.cart-btn{color: #fff;background: #d62d40;padding: 10px 20px;vertical-align: mi
 .order-text1{display: inline-block;}
 .order-text2{width: 140px;}
 .cart-table tr:hover{background: transparent;}
+.img-max1 img{max-height: 400px;}
+.img-max2{max-height: 235px;}
+.img-max3{text-align: center;}
+.img-max3 img{max-height: 165px;}
