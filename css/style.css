@@ -43,19 +43,22 @@ i{font-style:normal;}
 .cndns-right-btn{width:48px;height:48px;border:1px solid #eee;text-align:center;display:block;margin-bottom:4px;position:relative;background-color:#fff}
 .cndns-right-btn span{color:#848484;font-size:26px;line-height:48px;}
 .cndns-right-btn sup{display:block;min-width:24px;height:24px;text-align:center;line-height:24px;color:#fff;border-radius: 50%;background-color:#D62D40;position:absolute;left:-12px;top:-12px;}
+.cndns-right-btn sup{background: #333;}
 .cndns-right-btn p{color:#D62D40;font-size:14px;line-height:18px;padding-top:5px;display:none;}
 .cndns-right-meau:hover .cndns-right-btn span{display:none}
 .cndns-right-meau:hover .cndns-right-btn p{display:block;}
 .meau-car .cndns-right-btn {border-color:#D62D40;margin-bottom:4px;}
-.meau-car.cndns-right-meau:hover .cndns-right-btn{background-color:#D62D40}
+.meau-car .cndns-right-btn0 {border-color:#fff;}
+.meau-car.cndns-right-meau:hover .cndns-right-btn{background-color:#D62D40;border-color: #D62D40;}
 .meau-car.cndns-right-meau:hover .cndns-right-btn span{color:#fff;display:block;}
 .meau-car .cndns-right-btn span{color:#D62D40;}
-.meau-sev .cndns-right-btn{border-color:#D62D40;background:url(../images/02index-banner-8.png) no-repeat #D62D40 center center;} 
+.meau-car .cndns-right-btn0 span{color:#999;}
+.meau-sev .cndns-right-btn{border-color:#D62D40;background:url(../images/02index-banner-8.png) no-repeat #D62D40 center center;}
 .meau-sev .cndns-right-btn p{color:#fff}
 .meau-sev .cndns-right-btn span{color:#fff}
 .meau-top .cndns-right-btn span{font-size:12px;line-height:12px;padding-top:10px;display:block}
 .meau-top .cndns-right-btn i{display:block;color:#999}
-.meau-top.cndns-right-meau:hover .cndns-right-btn{background-color:#D62D40}
+.meau-top.cndns-right-meau:hover .cndns-right-btn{background-color:#D62D40;border-color: #D62D40;}
 .meau-top.cndns-right-meau:hover .cndns-right-btn span{display:block;color:#fff} 
 .meau-top.cndns-right-meau:hover .cndns-right-btn i{color:#fff;}
 .cndns-right-box{position:absolute;top:-15px;right:48px;padding-right:25px;display:none;}

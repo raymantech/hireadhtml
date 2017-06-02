@@ -54,6 +54,28 @@
     </div>
 </div>
 <div class="container cart-wp1">
+    <div class="register_step register_step2">
+        <ul>
+            <li>
+                <div class="step_img step_img_color">1</div>
+                <div class="step_text_ok">我的购物车</div>
+            </li>
+            <li>
+                <div class="register_dotted"></div>
+            </li>
+            <li>
+                <div class="step_img">2</div>
+                <div class="step_text_no">填写核对订单信息</div>
+            </li>
+            <li>
+                <div class="register_dotted"></div>
+            </li>
+            <li>
+                <div class="step_img">3</div>
+                <div class="step_text_no">订单支付</div>
+            </li>
+        </ul>
+    </div>
     <div class="cart-wp clear-fix">
         <div class="cart-title"><i class="fa fa-shopping-cart"></i>我的购物车</div>
         <div class="layui-form">
@@ -63,6 +85,8 @@
                     <th><span class="cart-pt">商品名称</span></th>
                     <th>单价</th>
                     <th>数量</th>
+                    <th>组合价</th>
+                    <th>现金券</th>
                     <th>小计</th>
                     <th>操作</th>
                 </tr>
@@ -77,17 +101,37 @@
                             <span class="cart-center">创业少年Kidpreneur<br/>北京府学胡同小学专场（第二期）</span>
                         </label>
                     </td>
-                    <td>￥899.00</td>
+                    <td>￥899.00<br/><span class="font-d1">￥899.00</span></td>
                     <td>1</td>
-                    <td>￥899.00</td>
-                    <td><span class="cart-close order-add-s"><i class="fa fa-times-circle"></i></span></td>
-                </tr>
-                <tr>
-                    <td colspan="5">
-                        <div class="cart-pt2">
-                            <div class="cart-color1"><input type="checkbox" name="cart1" lay-skin="primary" title="优惠券200" checked=""></div>
+                    <td>
+                        <div class="dropdown">
+                            <button id="dLabel" class="down-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                选择现金券
+                                <span class="caret"></span>
+                            </button>
+                            <div class="dropdown-menu down-menu1" aria-labelledby="dLabel">
+                                <form class="layui-form" action="">
+                                    <label class="down-menu2">
+                                        <input type="radio" name="sex" value=""><span class="color1"><i class="fa fa fa-money"></i></span>
+                                        <span class="color-666">￥30.00 2017.10.20到期</span>
+                                    </label>
+                                    <label class="down-menu2">
+                                        <input type="radio" name="sex" value=""><span class="color1"><i class="fa fa fa-money"></i></span>
+                                        <span class="color-666">￥30.00 2017.10.20到期</span>
+                                    </label>
+                                    <label class="down-menu2">
+                                        <input type="radio" name="sex" value=""><span class="color1"><i class="fa fa fa-money"></i></span>
+                                        <span class="color-666">￥30.00 2017.10.20到期</span>
+                                    </label>
+                                    <a class="layui-btn layui-btn-mini btn-color1">确定</a>
+                                    <a class="layui-btn layui-btn-mini layui-btn-primary">取消</a>
+                                </form>
+                            </div>
                         </div>
                     </td>
+                    <td>￥899.00</td>
+                    <td>￥899.00</td>
+                    <td><span class="cart-close order-add-s"><i class="fa fa-times-circle"></i></span></td>
                 </tr>
                 <tr>
                     <td>
@@ -100,26 +144,45 @@
                     </td>
                     <td>￥899.00</td>
                     <td>1</td>
+                    <td>
+                        <div class="dropdown">
+                            <button id="dLabe2" class="down-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                选择现金券
+                                <span class="caret"></span>
+                            </button>
+                            <div class="dropdown-menu down-menu1" aria-labelledby="dLabe2">
+                                <form class="layui-form" action="">
+                                    <label class="down-menu2">
+                                        <input type="radio" name="sex" value=""><span class="color1"><i class="fa fa fa-money"></i></span>
+                                        <span class="color-666">￥30.00 2017.10.20到期</span>
+                                    </label>
+                                    <label class="down-menu2">
+                                        <input type="radio" name="sex" value=""><span class="color1"><i class="fa fa fa-money"></i></span>
+                                        <span class="color-666">￥30.00 2017.10.20到期</span>
+                                    </label>
+                                    <label class="down-menu2">
+                                        <input type="radio" name="sex" value=""><span class="color1"><i class="fa fa fa-money"></i></span>
+                                        <span class="color-666">￥30.00 2017.10.20到期</span>
+                                    </label>
+                                    <a class="layui-btn layui-btn-mini btn-color1">确定</a>
+                                    <a class="layui-btn layui-btn-mini layui-btn-primary">取消</a>
+                                </form>
+                            </div>
+                        </div>
+                    </td>
+                    <td>￥899.00</td>
                     <td>￥899.00</td>
                     <td><span class="cart-close order-add-s"><i class="fa fa-times-circle"></i></span></td>
                 </tr>
                 <tr>
-                    <td colspan="5">
-                        <div class="cart-pt2">
-                            <div class="cart-color1"><input type="checkbox" name="cart1" lay-skin="primary" title="优惠券200"></div>
-                            <div class="pt-10"><input type="checkbox" name="cart1" lay-skin="primary" title="+50元，某某视频课程"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="5">
+                    <td colspan="7">
                         <div class="cart-bottom clear-fix">
                             <div class="fl">
                                 <input type="checkbox" name="" class="cart-all" lay-skin="primary" lay-filter="allChoose" title="全选">
                                 <span class="cart-all-text">共 <span class="cart-color2">3</span> 件商品，已选择 <span class="cart-color2">3</span>  件商品</span>
                             </div>
                             <div class="fr text-right">
-                                <span class="cart-jg">总计（不含运费） : <span class="cart-color3">￥2498.00</span><br/>活动已优惠￥0.00</span>
+                                <span class="cart-jg">总计 : <span class="cart-color3">￥2498.00</span><br/>以节省 : ￥0.00</span>
                                 <a href="shopping-order.html" class="cart-btn">前往结算</a>
                             </div>
                         </div>
@@ -137,23 +200,21 @@
             <div class="content clearfix">
                 <div class="logo-slogan">
                     <img class="img-responsive logo" src="img/logo1.png" alt="少年商学院">
-                    <div class="slogan">读原版，是提升英语能力最有效学习方法</div>
+                    <div class="slogan">爱上阅读，学会思考</div>
                 </div>
                 <div class="contact">
-                    <div class="links">
-                        <a class="item" href="javascript:" target="_blank">
-                            <i class="fa fa-weixin"></i>
-                            <span class="name">微信</span>
-                        </a>
-                        <a class="item" href="javascript:" target="_blank">
-                            <i class="fa fa-envelope"></i>
-                            <span class="name">HiRead@HiRead.com</span>
-                        </a>
-                    </div>
-                    <div class="tel">
-                        <i class="fa fa-phone"></i>
-                        <a href="tel:400888888">400-888-8888</a>
-                    </div>
+                    <a class="item" href="javascript:">
+                        <i class="fa fa-whatsapp"></i>
+                        <span class="name">客服</span>
+                    </a>
+                    <a class="item" href="javascript:">
+                        <i class="fa fa-weixin"></i>
+                        <span class="name">微信</span>
+                    </a>
+                    <a class="item" href="javascript:">
+                        <i class="fa fa-envelope"></i>
+                        <span class="name">HiRead@HiRead.com</span>
+                    </a>
                 </div>
                 <div class="qr-code">
                     <div class="item">

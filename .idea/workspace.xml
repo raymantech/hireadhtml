@@ -2,11 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b025155c-52fc-47b5-b138-d979248d732e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopping-wx.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-list.html" afterPath="$PROJECT_DIR$/course-list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.css" afterPath="$PROJECT_DIR$/css/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forget.html" afterPath="$PROJECT_DIR$/forget.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/public.js" afterPath="$PROJECT_DIR$/js/public.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning-class-list.html" afterPath="$PROJECT_DIR$/learning-class-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning-class.html" afterPath="$PROJECT_DIR$/learning-class.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning-microphone.html" afterPath="$PROJECT_DIR$/learning-microphone.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning-presentation.html" afterPath="$PROJECT_DIR$/learning-presentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning-test.html" afterPath="$PROJECT_DIR$/learning-test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning-trophy.html" afterPath="$PROJECT_DIR$/learning-trophy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketing-dx.html" afterPath="$PROJECT_DIR$/marketing-dx.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketing-fxy.html" afterPath="$PROJECT_DIR$/marketing-fxy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketing-jg.html" afterPath="$PROJECT_DIR$/marketing-jg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketing-lyx.html" afterPath="$PROJECT_DIR$/marketing-lyx.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketing-new-list.html" afterPath="$PROJECT_DIR$/marketing-new-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketing-new.html" afterPath="$PROJECT_DIR$/marketing-new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketing-yqy.html" afterPath="$PROJECT_DIR$/marketing-yqy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-gyq.html" afterPath="$PROJECT_DIR$/member-gyq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-jf.html" afterPath="$PROJECT_DIR$/member-jf.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-jl.html" afterPath="$PROJECT_DIR$/member-jl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-mm.html" afterPath="$PROJECT_DIR$/member-mm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-rs.html" afterPath="$PROJECT_DIR$/member-rs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-set.html" afterPath="$PROJECT_DIR$/member-set.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-yj.html" afterPath="$PROJECT_DIR$/member-yj.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-yq.html" afterPath="$PROJECT_DIR$/member-yq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-yyq.html" afterPath="$PROJECT_DIR$/member-yyq.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.html" afterPath="$PROJECT_DIR$/project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionnaire.html" afterPath="$PROJECT_DIR$/questionnaire.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register的副本.html" afterPath="$PROJECT_DIR$/register的副本.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register的副本2.html" afterPath="$PROJECT_DIR$/register的副本2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-cart.html" afterPath="$PROJECT_DIR$/shopping-cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-order.html" afterPath="$PROJECT_DIR$/shopping-order.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +60,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="218" column="48" lean-forward="false" selection-start-line="218" selection-start-column="40" selection-end-line="218" selection-end-column="48" />
+            <state relative-caret-position="100">
+              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -37,8 +70,28 @@
       <file leaf-file-name="project.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="181" column="36" lean-forward="false" selection-start-line="181" selection-start-column="36" selection-end-line="181" selection-end-column="36" />
+            <state relative-caret-position="315">
+              <caret line="87" column="56" lean-forward="false" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8105">
+              <caret line="508" column="93" lean-forward="false" selection-start-line="508" selection-start-column="93" selection-end-line="508" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping-cart.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-cart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="73" column="39" lean-forward="false" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -47,8 +100,8 @@
       <file leaf-file-name="shopping-order.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopping-order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2964">
-              <caret line="156" column="79" lean-forward="false" selection-start-line="156" selection-start-column="79" selection-end-line="156" selection-end-column="79" />
+            <state relative-caret-position="185">
+              <caret line="180" column="61" lean-forward="false" selection-start-line="180" selection-start-column="61" selection-end-line="180" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -56,11 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="member-set.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-set.html">
+      <file leaf-file-name="shopping-wx.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-wx.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3439">
-              <caret line="181" column="26" lean-forward="true" selection-start-line="177" selection-start-column="20" selection-end-line="181" selection-end-column="26" />
+            <state relative-caret-position="228">
+              <caret line="80" column="37" lean-forward="false" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="60" column="6" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="60" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -69,21 +132,11 @@
       <file leaf-file-name="css.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="774" column="32" lean-forward="false" selection-start-line="774" selection-start-column="32" selection-end-line="774" selection-end-column="32" />
+            <state relative-caret-position="793">
+              <caret line="785" column="18" lean-forward="false" selection-start-line="785" selection-start-column="18" selection-end-line="785" selection-end-column="18" />
               <folding>
-                <marker date="1496323984166" expanded="true" signature="235:259" ph="{...}" />
+                <marker date="1496419614599" expanded="true" signature="235:259" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course-list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course-list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="84" column="71" lean-forward="false" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -91,8 +144,8 @@
       <file leaf-file-name="public.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/public.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2204">
-              <caret line="121" column="17" lean-forward="false" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="23" />
+            <state relative-caret-position="612">
+              <caret line="145" column="11" lean-forward="false" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -102,43 +155,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>course-item</find>
-      <find>.course-item a</find>
-      <find>.course-item{</find>
-      <find>&lt;a href=&quot;javascript:&quot; class=&quot;layui-btn layui-btn-small layui-btn-primary2&quot;&gt;课程详情&lt;/a&gt;</find>
-      <find>.top-news</find>
-      <find>fa fa-cloud-download</find>
-      <find>jiathis_style clear-fix</find>
-      <find>pt-30 clear-fix</find>
-      <find>&lt;li&gt;&lt;a href=&quot;learning-microphone.html:&quot; abbr=&quot;learning-microphone&quot;&gt;&lt;i class=&quot;fa fa-microphone&quot;&gt;&lt;/i&gt;录音秀&lt;/a&gt;&lt;/li&gt;</find>
-      <find>&lt;li&gt;&lt;a href=&quot;javascript:&quot;&gt;&lt;i class=&quot;fa fa-cog&quot;&gt;&lt;/i&gt;账户设置&lt;/a&gt;&lt;/li&gt;</find>
-      <find>&lt;a id=&quot;drop3&quot; href=&quot;javascript:&quot; class=&quot;dropdown-toggle dropdown-toggle1&quot; data-hover=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;</find>
-      <find>.learning-nav a i</find>
-      <find>&lt;li&gt;&lt;a href=&quot;marketing-new.html&quot; abbr=&quot;marketing-new&quot;&gt;&lt;i class=&quot;fa fa-cog&quot;&gt;&lt;/i&gt;新闻动态&lt;/a&gt;&lt;/li&gt;</find>
-      <find>&lt;li&gt;&lt;a href=&quot;javascript:&quot;&gt;学习中心&lt;/a&gt;&lt;/li&gt;</find>
-      <find>&lt;li&gt;&lt;a href=&quot;javascript:&quot;&gt;课程优势&lt;/a&gt;&lt;/li&gt;</find>
-      <find>&lt;li&gt;&lt;a href=&quot;javascript:&quot;&gt;为什么读原版&lt;/a&gt;&lt;/li&gt;</find>
-      <find>&lt;li&gt;&lt;a href=&quot;javascript:&quot;&gt;机构合作&lt;/a&gt;&lt;/li&gt;</find>
-      <find>nth-child(odd)</find>
-      <find>f7f7f7</find>
-      <find>&lt;a href=&quot;javascript:&quot;&gt;&lt;i class=&quot;fa fa-circle-o&quot;&gt;&lt;/i&gt; 1-1 多选择题 (01:23)&lt;/a&gt;</find>
-      <find>购买</find>
-      <find>layui-layer-wrap</find>
-      <find>border-radius</find>
-      <find>fa fa-times-circle</find>
-      <find>国际化教学理念</find>
       <find>四大教学优势</find>
       <find>.product-header-block .block-l</find>
       <find>.product-header-block .block-l img</find>
       <find>row course-pt</find>
       <find>.course-item-summary .course-img img</find>
+      <find>fa fa-hand-pointer-o</find>
+      <find>.cndns-right-btn sup</find>
+      <find>cndns-right-btn</find>
+      <find>.meau-car .cndns-right-btn</find>
+      <find>.meau-car .cndns-right-btn span</find>
+      <find>.meau-car.cndns-right-meau:hover .cndns-right-btn</find>
+      <find>.ym-footer&gt;.main .content</find>
+      <find>.ym-footer .logo</find>
+      <find>.ym-footer .qr-code</find>
+      <find>.ym-footer .logo-slogan</find>
+      <find>.ym-footer .contact .item:first-child</find>
+      <find>.ym-footer .contact</find>
+      <find>&lt;div class=&quot;slogan&quot;&gt;爱上阅读，学会思考&lt;/div&gt;</find>
+      <find>&lt;div class=&quot;slogan&quot;&gt;爱上阅读，学会思考&lt;/div&gt;&lt;div class=&quot;slogan&quot;&gt;读原版，是提升英语能力最有效学习方法&lt;/div&gt;</find>
+      <find>&lt;div class=&quot;slogan&quot;&gt;读原版，是提升英语能力最有效学习方法&lt;/div&gt;</find>
+      <find>&lt;div class=&quot;contact&quot;&gt;                    &lt;div class=&quot;links&quot;&gt;                        &lt;a class=&quot;item&quot; href=&quot;javascript:&quot; target=&quot;_blank&quot;&gt;                            &lt;i class=&quot;fa fa-weixin&quot;&gt;&lt;/i&gt;                            &lt;span class=&quot;name&quot;&gt;微信&lt;/span&gt;                        &lt;/a&gt;                        &lt;a class=&quot;item&quot; href=&quot;javascript:&quot; target=&quot;_blank&quot;&gt;                            &lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt;                            &lt;span class=&quot;name&quot;&gt;HiRead@HiRead.com&lt;/span&gt;                        &lt;/a&gt;                    &lt;/div&gt;                    &lt;div class=&quot;tel&quot;&gt;                        &lt;i class=&quot;fa fa-phone&quot;&gt;&lt;/i&gt;                        &lt;a href=&quot;tel:400888888&quot;&gt;400-888-8888&lt;/a&gt;                    &lt;/div&gt;                &lt;/div&gt;</find>
+      <find>\&lt;div class\=\&quot;contact\&quot;\&gt;\n                    \&lt;div class\=\&quot;links\&quot;\&gt;\n                        \&lt;a class\=\&quot;item\&quot; href\=\&quot;javascript\:\&quot; target\=\&quot;_blank\&quot;\&gt;\n                            \&lt;i class\=\&quot;fa fa\-weixin\&quot;\&gt;\&lt;\/i\&gt;\n                            \&lt;span class\=\&quot;name\&quot;\&gt;微信\&lt;\/span\&gt;\n                        \&lt;\/a\&gt;\n                        \&lt;a class\=\&quot;item\&quot; href\=\&quot;javascript\:\&quot; target\=\&quot;_blank\&quot;\&gt;\n                            \&lt;i class\=\&quot;fa fa\-envelope\&quot;\&gt;\&lt;\/i\&gt;\n                            \&lt;span class\=\&quot;name\&quot;\&gt;HiRead\@HiRead\.com\&lt;\/span\&gt;\n                        \&lt;\/a\&gt;\n                    \&lt;\/div\&gt;\n                    \&lt;div class\=\&quot;tel\&quot;\&gt;\n                        \&lt;i class\=\&quot;fa fa\-phone\&quot;\&gt;\&lt;\/i\&gt;\n                        \&lt;a href\=\&quot;tel\:400888888\&quot;\&gt;400\-888\-8888\&lt;\/a\&gt;\n                    \&lt;\/div\&gt;\n                \&lt;\/div\&gt;</find>
+      <find>\&lt;div class\=\&quot;contact\&quot;\&gt;\&lt;a class\=\&quot;item\&quot; href\=\&quot;javascript\:\&quot;\&gt; \&lt;i class\=\&quot;fa fa\-whatsapp\&quot;\&gt;\&lt;\/i\&gt; \&lt;span class\=\&quot;name\&quot;\&gt;客服\&lt;\/span\&gt; \&lt;\/a\&gt; \&lt;a class\=\&quot;item\&quot; href\=\&quot;javascript\:\&quot;\&gt; \&lt;i class\=\&quot;fa fa\-weixin\&quot;\&gt;\&lt;\/i\&gt; \&lt;span class\=\&quot;name\&quot;\&gt;微信\&lt;\/span\&gt; \&lt;\/a\&gt; \&lt;a class\=\&quot;item\&quot; href\=\&quot;javascript\:\&quot;\&gt; \&lt;i\n                        class\=\&quot;fa fa\-envelope\&quot;\&gt;\&lt;\/i\&gt; \&lt;span class\=\&quot;name\&quot;\&gt;HiRead\@HiRead\.com\&lt;\/span\&gt; \&lt;\/a\&gt;                    \&lt;\!\-\-\&lt;div class\=\&quot;tel\&quot;\&gt;                        \&lt;i class\=\&quot;fa fa\-phone\&quot;\&gt;\&lt;\/i\&gt;                        \&lt;a href\=\&quot;tel\:400888888\&quot;\&gt;400\-888\-8888\&lt;\/a\&gt;                    \&lt;\/div\&gt;\-\-\&gt;\n                \&lt;\/div\&gt;</find>
+      <find>&lt;div class=&quot;contact&quot;&gt;                    &lt;a class=&quot;item&quot; href=&quot;javascript:&quot;&gt;                        &lt;i class=&quot;fa fa-whatsapp&quot;&gt;&lt;/i&gt;                        &lt;span class=&quot;name&quot;&gt;客服&lt;/span&gt;                    &lt;/a&gt;                    &lt;a class=&quot;item&quot; href=&quot;javascript:&quot;&gt;                        &lt;i class=&quot;fa fa-weixin&quot;&gt;&lt;/i&gt;                        &lt;span class=&quot;name&quot;&gt;微信&lt;/span&gt;                    &lt;/a&gt;                    &lt;a class=&quot;item&quot; href=&quot;javascript:&quot;&gt;                        &lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt;                        &lt;span class=&quot;name&quot;&gt;HiRead@HiRead.com&lt;/span&gt;                    &lt;/a&gt;                    &lt;!--&lt;div class=&quot;tel&quot;&gt;                        &lt;i class=&quot;fa fa-phone&quot;&gt;&lt;/i&gt;                        &lt;a href=&quot;tel:400888888&quot;&gt;400-888-8888&lt;/a&gt;                    &lt;/div&gt;--&gt;                &lt;/div&gt;</find>
+      <find>优惠券</find>
+      <find>优惠活动</find>
+      <find>&lt;li&gt;&lt;span class=&quot;block-b1&quot;&gt;优惠活动</find>
+      <find>font-d1</find>
+      <find>微信扫一扫</find>
+      <find>change_step</find>
     </findStrings>
     <replaceStrings>
-      <replace>9B091F</replace>
-      <replace>d62d40</replace>
-      <replace>© 2013-2017 Hi Read All Rights Reserved</replace>
-      <replace>fa fa-caret-right</replace>
-      <replace>373E46</replace>
       <replace>D62D40</replace>
       <replace>javascript:</replace>
       <replace>&lt;div class=&quot;elements-content&quot;&gt;demo&lt;/div&gt;</replace>
@@ -160,10 +208,15 @@
       <replace>&lt;li&gt;&lt;a href=&quot;learning-class.html&quot;&gt;学习中心&lt;/a&gt;&lt;/li&gt;</replace>
       <replace>&lt;li&gt;&lt;a href=&quot;marketing-new.html&quot;&gt;课程优势&lt;/a&gt;&lt;/li&gt;</replace>
       <replace>&lt;li&gt;&lt;a href=&quot;marketing-new.html&quot;&gt;为什么读原版&lt;/a&gt;&lt;/li&gt;</replace>
-      <replace />
       <replace>f8f8f8</replace>
       <replace>&lt;li&gt;&lt;a href=&quot;marketing-jg.html&quot;&gt;机构合作&lt;/a&gt;&lt;/li&gt;</replace>
       <replace>&lt;a href=&quot;class-multiselect.html&quot;&gt;&lt;i class=&quot;fa fa-circle-o&quot;&gt;&lt;/i&gt; 1-1 多选择题 (01:23)&lt;/a&gt;</replace>
+      <replace>&lt;div class=&quot;slogan&quot;&gt;读原版，是提升英语能力最有效学习方法&lt;/div&gt;</replace>
+      <replace />
+      <replace>&lt;div class=&quot;slogan&quot;&gt;爱上阅读，学会思考&lt;/div&gt;</replace>
+      <replace>&lt;div class=&quot;contact&quot;&gt;                    &lt;a class=&quot;item&quot; href=&quot;javascript:&quot;&gt;                        &lt;i class=&quot;fa fa-whatsapp&quot;&gt;&lt;/i&gt;                        &lt;span class=&quot;name&quot;&gt;客服&lt;/span&gt;                    &lt;/a&gt;                    &lt;a class=&quot;item&quot; href=&quot;javascript:&quot;&gt;                        &lt;i class=&quot;fa fa-weixin&quot;&gt;&lt;/i&gt;                        &lt;span class=&quot;name&quot;&gt;微信&lt;/span&gt;                    &lt;/a&gt;                    &lt;a class=&quot;item&quot; href=&quot;javascript:&quot;&gt;                        &lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt;                        &lt;span class=&quot;name&quot;&gt;HiRead@HiRead.com&lt;/span&gt;                    &lt;/a&gt;                    &lt;!--&lt;div class=&quot;tel&quot;&gt;                        &lt;i class=&quot;fa fa-phone&quot;&gt;&lt;/i&gt;                        &lt;a href=&quot;tel:400888888&quot;&gt;400-888-8888&lt;/a&gt;                    &lt;/div&gt;--&gt;                &lt;/div&gt;</replace>
+      <replace>&lt;li&gt;&lt;span class=&quot;block-b1 pt-&quot;&gt;优惠活动</replace>
+      <replace>&lt;li&gt;&lt;span class=&quot;block-b1 pt-15&quot;&gt;优惠活动</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -172,9 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/download/test/class.html" />
-        <option value="E:/download/jiaoben1287/index.html" />
-        <option value="E:/Code/整理效果/鼠标经过变色/hover.html" />
         <option value="$PROJECT_DIR$/js/quick_links.js" />
         <option value="$PROJECT_DIR$/../jquery-dragarrange/index.html" />
         <option value="$PROJECT_DIR$/../card源码版/index.html" />
@@ -182,46 +232,49 @@
         <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/js/bird.js" />
         <option value="$PROJECT_DIR$/css/media.css" />
-        <option value="$PROJECT_DIR$/register.html" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/文档说明.txt" />
         <option value="$PROJECT_DIR$/css/video-js.css" />
         <option value="$PROJECT_DIR$/learning.html" />
-        <option value="$PROJECT_DIR$/learning-class.html" />
-        <option value="$PROJECT_DIR$/learning-presentation.html" />
-        <option value="$PROJECT_DIR$/learning-test.html" />
-        <option value="$PROJECT_DIR$/learning-trophy.html" />
-        <option value="$PROJECT_DIR$/learning-microphone.html" />
-        <option value="$PROJECT_DIR$/member-jl.html" />
-        <option value="$PROJECT_DIR$/member-jf.html" />
-        <option value="$PROJECT_DIR$/member-mm.html" />
-        <option value="$PROJECT_DIR$/member-yq.html" />
-        <option value="$PROJECT_DIR$/member-rs.html" />
-        <option value="$PROJECT_DIR$/member-yj.html" />
-        <option value="$PROJECT_DIR$/member-yyq.html" />
-        <option value="$PROJECT_DIR$/member-gyq.html" />
-        <option value="$PROJECT_DIR$/learning-class-list.html" />
-        <option value="$PROJECT_DIR$/marketing-yqy.html" />
-        <option value="$PROJECT_DIR$/marketing-lyx.html" />
-        <option value="$PROJECT_DIR$/marketing-fxy.html" />
-        <option value="$PROJECT_DIR$/marketing-dx.html" />
-        <option value="$PROJECT_DIR$/marketing-new.html" />
-        <option value="$PROJECT_DIR$/marketing-new-list.html" />
-        <option value="$PROJECT_DIR$/marketing-jg.html" />
-        <option value="$PROJECT_DIR$/questionnaire.html" />
         <option value="$PROJECT_DIR$/css/class.css" />
         <option value="$PROJECT_DIR$/class.html" />
         <option value="$PROJECT_DIR$/class-choice.html" />
         <option value="$PROJECT_DIR$/class-drag.html" />
         <option value="$PROJECT_DIR$/class-game.html" />
         <option value="$PROJECT_DIR$/class-multiselect.html" />
-        <option value="$PROJECT_DIR$/member-set.html" />
-        <option value="$PROJECT_DIR$/js/public.js" />
-        <option value="$PROJECT_DIR$/shopping-order.html" />
-        <option value="$PROJECT_DIR$/shopping-cart.html" />
-        <option value="$PROJECT_DIR$/course-list.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/forget.html" />
+        <option value="$PROJECT_DIR$/learning-class.html" />
+        <option value="$PROJECT_DIR$/learning-class-list.html" />
+        <option value="$PROJECT_DIR$/learning-microphone.html" />
+        <option value="$PROJECT_DIR$/learning-presentation.html" />
+        <option value="$PROJECT_DIR$/learning-test.html" />
+        <option value="$PROJECT_DIR$/learning-trophy.html" />
+        <option value="$PROJECT_DIR$/marketing-dx.html" />
+        <option value="$PROJECT_DIR$/marketing-fxy.html" />
+        <option value="$PROJECT_DIR$/marketing-jg.html" />
+        <option value="$PROJECT_DIR$/marketing-lyx.html" />
+        <option value="$PROJECT_DIR$/marketing-new.html" />
+        <option value="$PROJECT_DIR$/marketing-new-list.html" />
+        <option value="$PROJECT_DIR$/marketing-yqy.html" />
+        <option value="$PROJECT_DIR$/member-gyq.html" />
+        <option value="$PROJECT_DIR$/member-jf.html" />
+        <option value="$PROJECT_DIR$/member-jl.html" />
+        <option value="$PROJECT_DIR$/member-mm.html" />
+        <option value="$PROJECT_DIR$/member-rs.html" />
+        <option value="$PROJECT_DIR$/member-set.html" />
+        <option value="$PROJECT_DIR$/member-yj.html" />
+        <option value="$PROJECT_DIR$/member-yq.html" />
+        <option value="$PROJECT_DIR$/member-yyq.html" />
+        <option value="$PROJECT_DIR$/questionnaire.html" />
+        <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/project.html" />
+        <option value="$PROJECT_DIR$/course-list.html" />
+        <option value="$PROJECT_DIR$/js/public.js" />
+        <option value="$PROJECT_DIR$/shopping-cart.html" />
+        <option value="$PROJECT_DIR$/shopping-order.html" />
+        <option value="$PROJECT_DIR$/shopping-wx.html" />
         <option value="$PROJECT_DIR$/css/css.css" />
       </list>
     </option>
@@ -277,7 +330,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,12 +469,13 @@
       <workItem from="1495975644097" duration="10010000" />
       <workItem from="1496027538590" duration="13527000" />
       <workItem from="1496236249700" duration="440000" />
-      <workItem from="1496322886755" duration="1107000" />
+      <workItem from="1496322886755" duration="1804000" />
+      <workItem from="1496410701129" duration="8890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137914000" />
+    <option name="totallyTimeSpent" value="147501000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,18 +493,18 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15364583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -465,14 +519,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="196" column="58" lean-forward="true" selection-start-line="196" selection-start-column="58" selection-end-line="196" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../card源码版/bird.js" />
     <entry file="file://$PROJECT_DIR$/../card源码版/index.html" />
     <entry file="file://$PROJECT_DIR$/js/bird.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -495,31 +541,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="155" column="14" lean-forward="false" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/media.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="22" selection-end-column="220" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-860">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -544,153 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning-test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="63" column="72" lean-forward="false" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning-trophy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="64" column="70" lean-forward="false" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning-presentation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="64" column="126" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-jf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="137" column="36" lean-forward="false" selection-start-line="137" selection-start-column="36" selection-end-line="137" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-mm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="88" column="60" lean-forward="false" selection-start-line="88" selection-start-column="60" selection-end-line="88" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-yq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="72" column="45" lean-forward="false" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-yj.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="72" column="45" lean-forward="false" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-yyq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="72" column="45" lean-forward="false" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-gyq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="72" column="45" lean-forward="false" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-jl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="878">
-          <caret line="136" column="29" lean-forward="false" selection-start-line="136" selection-start-column="29" selection-end-line="136" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-rs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="60" column="83" lean-forward="false" selection-start-line="60" selection-start-column="77" selection-end-line="60" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning-class-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning-microphone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="56" column="4" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="227" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/marketing-yqy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="58" column="43" lean-forward="false" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/marketing-lyx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="58" column="43" lean-forward="false" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/marketing-fxy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="58" column="43" lean-forward="false" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/marketing-dx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="58" column="43" lean-forward="false" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/marketing-new-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="78" column="38" lean-forward="false" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/marketing-jg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="83" column="53" lean-forward="false" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/marketing-new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="69" column="45" lean-forward="false" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning-class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layui/lay/dest/layui.all.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -702,13 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="746">
           <caret line="264" column="34" lean-forward="false" selection-start-line="264" selection-start-column="34" selection-end-line="264" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/questionnaire.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4807">
-          <caret line="253" column="0" lean-forward="false" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -754,69 +625,286 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="71" column="99" lean-forward="false" selection-start-line="71" selection-start-column="99" selection-end-line="71" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="569" column="10" lean-forward="false" selection-start-line="569" selection-start-column="10" selection-end-line="569" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-class-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="534" column="10" lean-forward="false" selection-start-line="534" selection-start-column="10" selection-end-line="534" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-microphone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="261" column="10" lean-forward="false" selection-start-line="261" selection-start-column="10" selection-end-line="261" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-presentation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="105" column="10" lean-forward="false" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="105" column="10" lean-forward="false" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-trophy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="105" column="10" lean-forward="false" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="266" column="10" lean-forward="false" selection-start-line="266" selection-start-column="10" selection-end-line="266" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-jf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="188" column="10" lean-forward="false" selection-start-line="188" selection-start-column="10" selection-end-line="188" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-gyq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marketing-yqy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="106" column="10" lean-forward="false" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marketing-new-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="114" column="10" lean-forward="false" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marketing-new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="168" column="10" lean-forward="false" selection-start-line="168" selection-start-column="10" selection-end-line="168" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marketing-lyx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="262" column="10" lean-forward="false" selection-start-line="262" selection-start-column="10" selection-end-line="262" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marketing-jg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="119" column="10" lean-forward="false" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marketing-fxy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="106" column="10" lean-forward="false" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-jl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="185" column="10" lean-forward="false" selection-start-line="185" selection-start-column="10" selection-end-line="185" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marketing-dx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="106" column="10" lean-forward="false" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-mm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="133" column="10" lean-forward="false" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-yq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questionnaire.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="224" column="10" lean-forward="false" selection-start-line="224" selection-start-column="10" selection-end-line="224" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/member-set.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3439">
-          <caret line="181" column="26" lean-forward="true" selection-start-line="177" selection-start-column="20" selection-end-line="181" selection-end-column="26" />
+        <state relative-caret-position="528">
+          <caret line="217" column="10" lean-forward="false" selection-start-line="217" selection-start-column="10" selection-end-line="217" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/public.js">
+    <entry file="file://$PROJECT_DIR$/member-yj.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2204">
-          <caret line="121" column="17" lean-forward="false" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="23" />
+        <state relative-caret-position="850">
+          <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-order.html">
+    <entry file="file://$PROJECT_DIR$/member-yyq.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2964">
-          <caret line="156" column="79" lean-forward="false" selection-start-line="156" selection-start-column="79" selection-end-line="156" selection-end-column="79" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="122" column="60" lean-forward="false" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="84" column="71" lean-forward="false" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
+        <state relative-caret-position="836">
+          <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/member-rs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="218" column="48" lean-forward="false" selection-start-line="218" selection-start-column="40" selection-end-line="218" selection-end-column="48" />
+        <state relative-caret-position="755">
+          <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="181" column="36" lean-forward="false" selection-start-line="181" selection-start-column="36" selection-end-line="181" selection-end-column="36" />
+        <state relative-caret-position="315">
+          <caret line="87" column="56" lean-forward="false" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8105">
+          <caret line="508" column="93" lean-forward="false" selection-start-line="508" selection-start-column="93" selection-end-line="508" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="145" column="11" lean-forward="false" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="60" column="6" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="60" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="73" column="39" lean-forward="false" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="180" column="61" lean-forward="false" selection-start-line="180" selection-start-column="61" selection-end-line="180" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-wx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="80" column="37" lean-forward="false" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="774" column="32" lean-forward="false" selection-start-line="774" selection-start-column="32" selection-end-line="774" selection-end-column="32" />
+        <state relative-caret-position="793">
+          <caret line="785" column="18" lean-forward="false" selection-start-line="785" selection-start-column="18" selection-end-line="785" selection-end-column="18" />
           <folding>
-            <marker date="1496323984166" expanded="true" signature="235:259" ph="{...}" />
+            <marker date="1496419614599" expanded="true" signature="235:259" ph="{...}" />
           </folding>
         </state>
       </provider>

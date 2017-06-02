@@ -143,6 +143,20 @@ $(function(){
 
         })
     });
+    $(".btn-c1").click(function(){
+        layer.open({
+            type: 1,
+            title: false,
+            closeBtn: 0,
+            shadeClose: false,
+            area: ['auto', 'auto'],
+            content: $('.popup-content1').html(),
+            success:function(){
+                layui.form().render()
+            }
+        })
+    });
+
     $(".layui-layer-close").click(function(){
         $('.popup-content').hide();
     });
