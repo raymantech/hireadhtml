@@ -215,14 +215,15 @@ a.class-btn i{}
 .choice-tm-hover .choice-tm-content{color: #D62D40;}
 
 #elements-container{text-align:center;padding-top: 20px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
-.draggable-element{display:inline-block;width:240px;height:240px;border:4px solid #eee;margin:10px;cursor:move;position: relative;padding: 20px;}
+.draggable-element{display:inline-block; width: 18%;border:4px solid #eee;margin:10px;cursor:move;position: relative;padding: 20px;}
+.draggable-element::after {content: '';display: block; padding-bottom: 100%;}
 .draggable-element:hover{border-color: #D62D40;}
 .elements-num{width: 100%;position: absolute;bottom: 30px;left: 0;text-align: center;}
 .elements-num span{width: 25px;height: 25px;background: #D62D40;line-height: 25px;color: #fff;font-weight: bold;font-size: 16px;
  -webkit-border-radius:50px;
  -moz-border-radius:50px;
  border-radius:50px;}
-.elements-content{background: url(../img/img21.jpg) no-repeat;background-size: 100% 100%;height: 100%;padding: 20px;}
+.elements-content{background: url(../img/img21.jpg) no-repeat;background-size: 100% 100%;position: absolute; left: 20px; right: 20px; top: 20px; bottom: 20px; padding: 20px;}
 .draggable-element-text{text-indent: -9999px;}
 
 /*game*/
