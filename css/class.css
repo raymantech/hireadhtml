@@ -201,10 +201,12 @@ a.class-btn i{}
 .choice-ts{position: absolute;right: 20px;top: 30px;}
 .choice-btn{text-align: center;padding-top: 30px;}
 .choice-title{text-align: center;padding: 50px 10% 0;}
+.choice-title2{text-align: center;padding: 20px 10% 0;}
 .choice-title h4{font-size: 40px;line-height: 1.8em;}
 .choice-title p{font-size: 16px;}
 
 .choice-tm{text-align: center;padding: 50px 10px;}
+.choice-tm1{text-align: center;padding: 10px 10px;}
 .pt-b10{padding: 10px;}
 .choice-tm-list{display: inline-block;border: solid 4px #eee;width: 430px;height: 320px;position: relative;cursor: pointer;color: #999;padding: 28px;margin: 0 10px;}
 .choice-tm-content{font-size: 60px;line-height: 2em;background: #f6f6f6;height: 100%;}
@@ -266,7 +268,7 @@ a.class-btn i{}
 .multiselect-left{padding-left: 42%;}
 
 /*drag*/
-.drag-wp{position: relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width: 1200px;margin: 0 auto;}
+.drag-wp{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width: 1200px;margin: 0 auto;}
 #moveDiv{width:100%;height:100%;position:absolute;z-index:9998;border:1px solid #eee;-moz-user-select:none;}
 .zhu_on{background:#F6F6F6;cursor:move;padding: 10px;height: 100%;}
 .contentRBox{position:relative;}

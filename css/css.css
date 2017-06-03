@@ -788,7 +788,7 @@ a.cart-btn{color: #fff;background: #d62d40;padding: 10px 20px;vertical-align: mi
 .wx-img1{padding: 20px;border: solid 1px #dedede;width: 332px;}
 .wx-bg{width: 332px;margin: 20px;background: #ff7674;color: #fff;padding: 15px;}
 .wx-text{line-height: 2em;padding-bottom: 10px;}
-.wx-img2{text-align: left;position: absolute;top: 56px;right: -270px;}
+.wx-img2{text-align: left;position: absolute;top: 56px;right: -190px;}
 .wx-img2 img{max-height: 450px;}
 .wx-img3 img{width: 50px;vertical-align: middle;}
 .wx-text1{vertical-align: middle;}
@@ -796,3 +796,4 @@ a.cart-btn{color: #fff;background: #d62d40;padding: 10px 20px;vertical-align: mi
 .p-text2 span{vertical-align: middle;}
 .position-r{position: relative;}
 .icon-img2{position: absolute;top: 70px;right: -5px;}
+.cart-a{padding: 0 40px 30px;font-size: 16px;}
