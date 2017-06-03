@@ -55,23 +55,12 @@
                             <a href="javascript:">
                                 <img src="img/img25.jpg" alt="">
                             </a>
-                            <!-- JiaThis Button BEGIN -->
-                            <div class="jiathis_style clear-fix" style="padding: 10px 0 10px 10px;">
-                                <a class="jiathis_button_qzone"></a>
-                                <a class="jiathis_button_tsina"></a>
-                                <a class="jiathis_button_tqq"></a>
-                                <a class="jiathis_button_weixin"></a>
-                                <a class="jiathis_button_renren"></a>
-                                <a class="jiathis_button_xiaoyou"></a>
-                                <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-                                <a class="jiathis_counter_style"></a>
-                            </div>
-                            <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-                            <!-- JiaThis Button END -->
+
                             <div class="tags tag-on-go">
                                 <span>正在开课</span>
                             </div>
                         </div>
+
                         <div class="fl" style="width: 738px;padding: 20px;">
                             <div class="clear-fix">
                                 <h4 class="course-title">同步欧美小学创新课程</h4>
@@ -98,6 +87,19 @@
                             <a class="btn btn-warning" href="shopping-cart.html">购买课程</a>
                             <a class="btn btn-warning2" href="class.html">试听课程</a>
                         </div>
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style clear-fix" style="padding: 10px 0 10px 10px;">
+                            <a class="jiathis_button_qzone"></a>
+                            <a class="jiathis_button_tsina"></a>
+                            <a class="jiathis_button_tqq"></a>
+                            <a class="jiathis_button_weixin"></a>
+                            <a class="jiathis_button_renren"></a>
+                            <a class="jiathis_button_xiaoyou"></a>
+                            <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+                            <a class="jiathis_counter_style"></a>
+                        </div>
+                        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+                        <!-- JiaThis Button END -->
                     </div>
                 </div>
             </div>
@@ -148,15 +150,16 @@
             <h2 class="title">组合套餐</h2>
         </div>
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 position-r">
                 <div class="img-max3"><img src="img/img25.jpg" alt=""></div>
                 <div>同步欧美小学创新课程</div>
                 <div class="p-price">
                     <label>
-                        <input type="checkbox">
+                        <input type="checkbox" checked>
                         ￥18.00
                     </label>
                 </div>
+                <span class="icon-img2"><i class="fa fa-plus"></i></span>
             </div>
             <div class="col-md-2">
                 <div class="img-max3"><img src="img/img25.jpg" alt=""></div>
@@ -195,8 +198,11 @@
                 <div style="padding-top: 36px;">已选择0本书</div>
                 <div class="block-b">
                     <ul>
-                        <li>
-                            <span class="">组合价：</span><span class="block-b1-c">￥980.00</span>
+                        <li class="p-text2">
+                            <span class="">组合价：</span><span class="block-b1-c">￥980.00</span> <span class="p-text1">省￥980.00</span>
+                        </li>
+                        <li class="p-text3">
+                            <span class="">原价：</span><span class="font-d1">￥1980.00</span>
                         </li>
                     </ul>
                 </div>
@@ -847,29 +853,35 @@
 <div class="ym-footer" id="footer">
     <div class="main">
         <div class="container">
-            <div class="content clearfix">
-                <div class="logo-slogan">
-                    <img class="img-responsive logo" src="img/logo1.png" alt="少年商学院">
-                    <div class="slogan">爱上阅读，学会思考</div>
+            <div class="row">
+                <div class="col-xs-3">
+                    <div class="logo-slogan">
+                        <img class="logo" src="img/logo.png" alt="少年商学院">
+                        <div class="slogan">爱上阅读，学会思考</div>
+                    </div>
                 </div>
-                <div class="contact">
-                    <a class="item" href="javascript:">
-                        <i class="fa fa-whatsapp"></i>
-                        <span class="name">客服</span>
-                    </a>
-                    <a class="item" href="javascript:">
-                        <i class="fa fa-weixin"></i>
-                        <span class="name">微信</span>
-                    </a>
-                    <a class="item" href="javascript:">
-                        <i class="fa fa-envelope"></i>
-                        <span class="name">HiRead@HiRead.com</span>
-                    </a>
+                <div class="col-xs-7">
+                    <div class="contact">
+                        <a class="item" href="javascript:">
+                            <i class="fa fa-whatsapp"></i>
+                            <span class="name">客服</span>
+                        </a>
+                        <a class="item" href="javascript:">
+                            <i class="fa fa-weixin"></i>
+                            <span class="name">微信</span>
+                        </a>
+                        <a class="item" href="javascript:">
+                            <i class="fa fa-envelope"></i>
+                            <span class="name">HiRead@HiRead.com</span>
+                        </a>
+                    </div>
                 </div>
-                <div class="qr-code">
-                    <div class="item">
-                        <img class="img-responsive" src="img/wx.png" alt="服务号">
-                        <div class="name">移动课堂</div>
+                <div class="col-xs-2">
+                    <div class="qr-code">
+                        <div class="item">
+                            <img class="img-responsive" src="img/wx.png" alt="服务号">
+                            <div class="name">移动课堂</div>
+                        </div>
                     </div>
                 </div>
             </div>

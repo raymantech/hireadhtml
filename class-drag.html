@@ -11,17 +11,6 @@
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/video-js.css">
     <link rel="stylesheet" href="css/class.css">
-    <style type="text/css">
-        .step {
-            width: 90%;
-            margin: auto;
-            text-align: center;
-        }
-        .step img {
-            width: 18%;
-            display: inline-block;
-        }
-    </style>
 <body>
 <div class="class-left">
     <div class="class-left-title clear-fix">
@@ -42,15 +31,77 @@
             </p>
         </div>
         <div class="choice-tm clear-fix">
-            <div class="showcase showcase-1">
-                <h3 class="step clear-fix">
-                    <img src="img/class_img5_01.jpg">
-                    <img src="img/class_img5_02.jpg">
-                    <img src="img/class_img5_03.jpg">
-                    <img src="img/class_img5_04.jpg">
-                    <img src="img/class_img5_05.jpg">
-                </h3>
-                <div id="elements-container">
+            <div class="drag-wp">
+                <ul class="drag-ul">
+                    <li><span>1</span></li>
+                    <li><span>2</span></li>
+                    <li><span>3</span></li>
+                    <li><span>4</span></li>
+                    <li><span>5</span></li>
+                </ul>
+                <div class="drag-wp clear">
+                    <div id="hiddenBox"></div>
+                    <div class="contentRBox">
+                        <div class="contentBox2">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <dl class="drag-dl">
+                                <dt>
+                                    <span>要求文字说明</span><br/>
+                                    <span>Description</span>
+                                    <span class="drag-pa">拖拽下面文字或图片到此框</span>
+                                </dt>
+                                <dt>
+                                    <span>要求文字说明</span><br/>
+                                    <span>Description</span>
+                                    <span class="drag-pa">拖拽下面文字或图片到此框</span>
+                                </dt>
+                                <dt>
+                                    <span>要求文字说明</span><br/>
+                                    <span>Description</span>
+                                    <span class="drag-pa">拖拽下面文字或图片到此框</span>
+                                </dt>
+                                <dt>
+                                    <span>要求文字说明</span><br/>
+                                    <span>Description</span>
+                                    <span class="drag-pa">拖拽下面文字或图片到此框</span>
+                                </dt>
+                                <dt>
+                                    <span>要求文字说明</span><br/>
+                                    <span>Description</span>
+                                    <span class="drag-pa">拖拽下面文字或图片到此框</span>
+                                </dt>
+                            </dl>
+                        </div>
+                        <div class="contentBox2 contentBox2-1">
+                            <ul>
+                                <li><span class="zhu_on"><img src="img/img21.jpg" alt=""></span></li>
+                                <li>
+                                    <span class="zhu_on">
+                                        <span>text</span>
+                                        <span>text</span>
+                                        <span>text</span>
+                                        <span>text</span>
+                                        <span>text</span>
+                                        <span>text</span>
+                                        <span>text</span>
+                                        <span>text</span>
+                                        <span>text</span>
+                                    </span>
+                                </li>
+                                <li><span class="zhu_on"><img src="img/img21.jpg" alt=""></span></li>
+                                <li><span class="zhu_on"><img src="img/img21.jpg" alt=""></span></li>
+                                <li><span class="zhu_on"><img src="img/img21.jpg" alt=""></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--<div id="elements-container">
                     <div class="draggable-element d-1">
                         <div class="elements-content">demo</div>
                         <div class="elements-num"><span>1</span></div>
@@ -71,7 +122,7 @@
                         <div class="elements-content">demo</div>
                         <div class="elements-num"><span>5</span></div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
         <div class="choice-btn">
@@ -90,18 +141,6 @@
     <div class="quick_link_mian">
         <div class="quick_links_panel">
             <ul id="quick_links" class="quick_links">
-                <!--<li><a href="javascript:" class="my_qlinks"><i class="setting"></i></a>
-                    <div class="ibar_login_box status_login">
-                        <div class="avatar_box">
-                            <p class="avatar_imgbox"><img src="images/no-img_mid_.jpg" alt=""/></p>
-                            <ul class="user_info">
-                                <li>用户名：sl19931003</li>
-                                <li>级&nbsp;别：普通会员</li>
-                            </ul>
-                        </div>
-                        <div class="login_btnbox"><a href="javascript:" class="login_order">我的订单</a> <a href="javascript:" class="login_favorite">我的收藏</a></div>
-                        <i class="icon_arrow_white fa fa-caret-right"></i></div>
-                </li>-->
                 <li id="shopCart">
                     <a href="javascript:" class="message_list">
                         <i class="fa fa-list-ul"></i>
@@ -113,7 +152,6 @@
                         <i class="fa fa-commenting"></i>
                         <span class="class-right-menu">提示</span>
                     </a>
-                    <!--<div class="mp_tooltip" style=" visibility:hidden;">问答1<i class="icon_arrow_right_black fa fa-caret-right"></i></div>-->
                 </li>
                 <li>
                     <a href="javascript:" class="mpbtn_histroy">
@@ -121,31 +159,7 @@
                         <span class="class-right-menu">资料</span>
                     </a>
                 </li>
-                <!--<li>
-                    <a href="javascript:" class="mpbtn_wdsc">
-                        <i class="fa fa-cloud-download"></i>
-                        <span class="class-right-menu">资料</span>
-                    </a>
-                </li>-->
-                <!--<li>
-                    <a href="javascript:" class="mpbtn_recharge">
-                        <i class="fa fa-list-ul"></i>
-                        <span class="class-right-menu">目录</span>
-                    </a>
-                </li>-->
             </ul>
-            <!--<ul class="quick_toggle">
-                <li>
-                    <a href="#none">
-                        <i class="fa fa-list-ul"></i>
-                        <span class="class-right-menu">二维码</span>
-                    </a>
-                    <div class="mp_qrcode" style="display:none;">
-                        <img src="img/wx.png" alt=""/><i class="icon_arrow_white fa fa-caret-right"></i>
-                    </div>
-                </li>
-                <li><a href="#top" class="return_top"><i class="top"></i></a></li>
-            </ul>-->
         </div>
         <div id="quick_links_pop" class="quick_links_pop hide"></div>
     </div>
@@ -355,7 +369,7 @@
 <script src="js/public.js"></script>
 <script type="text/javascript">
     $(function() {
-        $('.draggable-element').arrangeable();
+//        $('.draggable-element').arrangeable();
         $(".scroll").niceScroll({
             cursorcolor: "rgba(0,0,0,.3)",
             cursoropacitymax: 1,

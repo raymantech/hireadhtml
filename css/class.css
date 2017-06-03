@@ -264,3 +264,27 @@ a.class-btn i{}
 .game-pop1 a{background: #D62D40;color: #fff;font-size: 16px;padding: 10px 35px;line-height: 1.5em;}
 
 .multiselect-left{padding-left: 42%;}
+
+/*drag*/
+.drag-wp{position: relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width: 1200px;margin: 0 auto;}
+#moveDiv{width:100%;height:100%;position:absolute;z-index:9998;border:1px solid #eee;-moz-user-select:none;}
+.zhu_on{background:#F6F6F6;cursor:move;padding: 10px;height: 100%;}
+.contentRBox{position:relative;}
+.contentBox2,.contentBox2 ul{height:220px;width:auto;position: relative;}
+.contentBox2 li{float:left;height:220px;width:18%;border:4px solid #eee;position:relative;-moz-user-select:none;padding: 10px;margin: 10px;z-index: 2;}
+.contentBox2 li.ding_on{background:#696;cursor:move}
+.contentBox2 div.ding_on{background:#696;cursor:move}
+#hiddenBox{width:100%;height:100%;position:absolute;z-index:9999;display:none;cursor:move}
+.contentBox2-1 li{border-color: transparent;padding: 0;}
+
+.drag-dl{position: absolute;width: 100%;top: 10px;left: 0;}
+.drag-dl dt{float:left;height:220px;width:18%;padding: 14px;margin: 10px;text-align: left;z-index: 1;color: #999;position: relative;}
+.drag-pa{position: absolute;bottom: 30px;left: 14px;}
+
+.step{width: 1200px;margin:0 auto;text-align: center;}
+.step img{width: 18%;display: inline-block;}
+.drag-ul li{float:left;width:18%;padding: 0 14px;margin: 0 10px;text-align: center;z-index: 1;color: #999;position: relative;}
+.drag-ul span{background: #48D279;color: #fff;font-size: 18px;font-weight: bold;width: 30px;height: 30px;line-height: 30px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;}

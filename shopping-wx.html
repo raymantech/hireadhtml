@@ -78,10 +78,19 @@
     </div>
     <div class="cart-wp clear-fix">
         <div class="order-title">微信支付</div>
-        <div class="text-center pd-30">
-            <img src="img/wx5.png" alt="">
-            <p>请使用微信扫一扫扫描二维码支付</p>
-            <p>二维码 <span class="color1">2</span> 小时内有效，如过期请刷新页面重新获取二维码</p>
+        <div class="col-md-6">
+            <div class="text-center pd-30 wx-wp">
+                <span class="wx-text">距离二维码过期还剩 <span class="color1" id="sec">60</span> 秒，过期后请刷新页面重新获取二维码。</span>
+                <span class="wx-img1"><img src="img/wx5.png" alt=""></span>
+                <span class="wx-bg">
+                    <span class="wx-img3"><img src="img/wx6.png" alt=""></span>
+                    <span class="wx-text1">请使用微信扫一扫<br/>扫描二维码支付</span>
+                </span>
+                <span class="wx-img2"><img src="img/img35.jpg" alt=""></span>
+            </div>
+        </div>
+        <div class="col-md-6">
+
         </div>
     </div>
 </div>
@@ -205,4 +214,20 @@
 <script src="layui/lay/dest/layui.all.js"></script>
 <script src="js/public.js"></script>
 <script src="js/video.js"></script>
+<script type="text/javascript">
+    $(function () {
+        setTimeout("lazyGo();", 1000);
+    });
+    function lazyGo() {
+        var sec = $("#sec").text();
+        $("#sec").text(--sec);
+        if (sec > 0) {
+            setTimeout("lazyGo();", 1000);
+        } else {
+//            window.location.href = "http://www.17sucai.com";
+        }
+
+    }
+</script>
+
 </html>
