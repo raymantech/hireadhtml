@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/video-js.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -84,7 +85,7 @@
                             </div>
                         </div>
                         <div class="pt-10 btn-pr">
-                            <a class="btn btn-warning" href="shopping-cart.html">购买课程</a>
+                            <a class="btn btn-warning add-car" href="javascript:">加入购物车</a>
                             <a class="btn btn-warning2" href="class.html">试听课程</a>
                         </div>
                         <!-- JiaThis Button BEGIN -->
@@ -207,7 +208,7 @@
                     </ul>
                 </div>
                 <div class="clear" style="padding-top: 10px;">
-                    <a class="btn btn-warning" href="shopping-cart.html">购买课程</a>
+                    <a class="btn btn-warning add-car" href="javascript:">加入购物车</a>
                     <!-- <a class="btn btn-warning2" href="class.html">试听课程</a> -->
                 </div>
             </div>
@@ -908,9 +909,64 @@
         </div>
     </div>
 </div>
+<!--右侧-->
+<div class="cndns-right">
+    <div class="cndns-right-meau meau-contact">
+        <a href="javascript:" class="cndns-right-btn">
+            <span class="demo-icon"><img src="images/ico4.png" alt="" style="width: 30px;margin-top:-15px;"></span>
+            <p>用户<br>中心</p>
+        </a>
+    </div>
+    <div class="cndns-right-meau meau-contact">
+        <a href="javascript:" class="cndns-right-btn">
+            <span class="demo-icon"><img src="images/ico2.png" alt="" style="width: 30px;margin-top:-11px;opacity:.55;"></span>
+            <p>学习<br>中心</p>
+        </a>
+    </div>
+    <div class="cndns-right-meau meau-contact">
+        <a href="javascript:" class="cndns-right-btn">
+            <span class="demo-icon"><img src="images/ico0.png" alt=""  style="width: 22px;margin-top:-10px;opacity:.55;"></span>
+            <p>消息<br>中心</p>
+        </a>
+    </div>
+    <div class="cndns-right-meau meau-car">
+        <a href="shopping-cart.html" class="cndns-right-btn cndns-right-btn0">
+            <span class="demo-icon">&#xe900;</span>
+            <sup class="badge1" id="badge">0</sup>
+        </a>
+    </div>
+    <div class="cndns-right-meau meau-code">
+        <a href="javascript:" class="cndns-right-btn">
+            <span class="demo-icon">&#xe903;</span>
+            <p>移动<br>课堂</p>
+        </a>
+        <div class="cndns-right-box">
+            <div class="box-border">
+                <div class="sev-t">
+                    <img src="images/02index-2.jpg" />
+                    <i>关注官方微信</i>
+                </div>
+                <span class="arrow-right"></span>
+            </div>
+        </div>
+    </div>
+    <div class="cndns-right-meau meau-contact">
+        <a href="javascript:" class="cndns-right-btn">
+            <span class="demo-icon"><img src="images/ico3.png" alt="" style="width: 30px;margin-top:-15px;"></span>
+            <p>邀请<br>同学</p>
+        </a>
+    </div>
+    <div class="cndns-right-meau meau-top" id="top-back">
+        <a href="javascript:" class="cndns-right-btn" onclick="topBack()">
+            <span class="demo-icon">&#xe904;</span>
+            <i>顶部</i>
+        </a>
+    </div>
+</div>
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/public.js"></script>
 <script src="js/video.js"></script>
+<script src="js/fly.js"></script>
 </html>

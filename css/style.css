@@ -43,7 +43,7 @@ i{font-style:normal;}
 .cndns-right-btn{width:48px;height:48px;border:1px solid #eee;text-align:center;display:block;margin-bottom:4px;position:relative;background-color:#fff}
 .cndns-right-btn span{color:#848484;font-size:26px;line-height:48px;}
 .cndns-right-btn sup{display:block;min-width:24px;height:24px;text-align:center;line-height:24px;color:#fff;border-radius: 50%;background-color:#D62D40;position:absolute;left:-12px;top:-12px;}
-.cndns-right-btn sup{background: #333;}
+.cndns-right-btn0 sup{background: #333;}
 .cndns-right-btn p{color:#D62D40;font-size:14px;line-height:18px;padding-top:5px;display:none;}
 .cndns-right-meau:hover .cndns-right-btn span{display:none}
 .cndns-right-meau:hover .cndns-right-btn p{display:block;}

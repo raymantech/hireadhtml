@@ -166,4 +166,49 @@ $(function(){
     $(".order-link").click(function () {
         $(this).addClass('order-link-hover').siblings().removeClass('order-link-hover');
     });
+
+    //置顶图标显示
+    $('#top-back').hide();
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 350){
+            $("#top-back").fadeIn();
+        }
+        else{
+            $("#top-back").fadeOut();
+        }
+    });
+//置顶事件
+    function topBack(){
+        $('body,html').animate({scrollTop:0},300);
+    }
+
+    $(function () {
+        /*添加到购物车*/
+        var carN = parseInt($("#badge").text());
+        $(".add-car").each(function(){
+            $(this).on('click', function(e){
+                if(!$(this).hasClass("disabled")) {
+                    var offset = $("#badge").position(),
+                        flyer = $('<i class="fa fa-shopping-cart" style="font-size: 30px; color: red;"></i>');
+                    flyer.fly({
+                        start: {
+                            left: e.clientX,
+                            top: e.clientY
+                        },
+                        end: {
+                            left: $("#badge").offset().left,
+                            top: 800,
+                            width: 20,
+                            height: 20
+                        },
+                        onEnd: function(){
+                            $(".badge1").text(carN += 1);
+                            flyer.fadeOut('slow');
+                        }
+                    });
+                    $('.cndns-right-btn').removeClass('cndns-right-btn0');
+                }
+            });
+        })
+    })
 });
