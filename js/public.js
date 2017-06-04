@@ -116,23 +116,22 @@ $(function () {
 });
 
 
-$(function(){
+$(function () {
     $(function () {
 
         $('.order-add-s').click(function () {
             layer.confirm('确定要删除吗？', {
                 title: false,
                 closeBtn: 0,
-                btn: ['确定','取消'] //按钮
-            }, function(){
+                btn: ['确定', '取消'] //按钮
+            }, function () {
                 layer.msg('删除成功！', {icon: 1});
-            }, function(){
-                layer.msg('取消成功！', {
-                });
+            }, function () {
+                layer.msg('取消成功！', {});
             });
         })
     });
-    $(".order-add-g").click(function(){
+    $(".order-add-g").click(function () {
         layer.open({
             type: 1,
             title: false,
@@ -143,7 +142,7 @@ $(function(){
 
         })
     });
-    $(".btn-c1").click(function(){
+    $(".btn-c1").click(function () {
         layer.open({
             type: 1,
             title: false,
@@ -151,13 +150,13 @@ $(function(){
             shadeClose: false,
             area: ['auto', 'auto'],
             content: $('.popup-content1').html(),
-            success:function(){
+            success: function () {
                 layui.form().render()
             }
         })
     });
 
-    $(".layui-layer-close").click(function(){
+    $(".layui-layer-close").click(function () {
         $('.popup-content').hide();
     });
     $(".order-add-wp").click(function () {
@@ -169,25 +168,22 @@ $(function(){
 
     //置顶图标显示
     $('#top-back').hide();
-    $(window).scroll(function(){
-        if($(this).scrollTop() > 350){
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 350) {
             $("#top-back").fadeIn();
         }
-        else{
+        else {
             $("#top-back").fadeOut();
         }
     });
-//置顶事件
-    function topBack(){
-        $('body,html').animate({scrollTop:0},300);
-    }
+
 
     $(function () {
         /*添加到购物车*/
         var carN = parseInt($("#badge").text());
-        $(".add-car").each(function(){
-            $(this).on('click', function(e){
-                if(!$(this).hasClass("disabled")) {
+        $(".add-car").each(function () {
+            $(this).on('click', function (e) {
+                if (!$(this).hasClass("disabled")) {
                     var offset = $("#badge").position(),
                         flyer = $('<i class="fa fa-shopping-cart" style="font-size: 30px; color: red;"></i>');
                     flyer.fly({
@@ -201,7 +197,7 @@ $(function(){
                             width: 20,
                             height: 20
                         },
-                        onEnd: function(){
+                        onEnd: function () {
                             $(".badge1").text(carN += 1);
                             flyer.fadeOut('slow');
                         }
@@ -212,3 +208,7 @@ $(function(){
         })
     })
 });
+//置顶事件
+function topBack() {
+    $('body,html').animate({scrollTop: 0}, 300);
+}
