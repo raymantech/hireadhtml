@@ -801,7 +801,7 @@ a.cart-btn{color: #fff;background: #d62d40;padding: 10px 20px;vertical-align: mi
 /*优惠券*/
 a.coupon-style-2{display:block;max-width:256px;position:relative;text-decoration:none;background-size:100% 100%;background-position:center;background-repeat:no-repeat;background-image:url(../img/coupon-style-2.png)}
 .coupon-style-2::after{content:'';display:block;padding-bottom:94%}
-.coupon-style-2 .price{color:#fa3672;font-size:300%;padding-top:16%;padding-left:5%;text-align:center;position:absolute;width:100%}
+.coupon-style-2 .price{color:#fa3672;font-size:300%;padding-top:25%;padding-left:6%;text-align:center;position:absolute;width:100%;font-weight: bold;}
 .coupon-style-2 .desc{color:#fff;line-height:1;padding-left:4%;padding-top:22%;text-align:center;position:absolute;width:100%;text-align:center;bottom:32%}
 .coupon-style-2 .desc .min{margin:0;font-size:14px}
 .coupon-style-2 .desc .max{font-size:16px;margin-top:5px;margin-bottom:0}
@@ -832,3 +832,6 @@ a.btn-blue{color: #0078D5;}
     border-radius:50%;}
 
 .layui-table1 td{vertical-align: middle;}
+.learning-title4{font-size: 16px;padding-left: 8px;padding-bottom: 10px;}
+.learning-title4 i{width: 28px;text-align: center;padding-right: 8px;}
+.pt-bottom-8{padding-bottom: 8px;}
