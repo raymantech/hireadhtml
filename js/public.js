@@ -115,8 +115,14 @@ $(function () {
 
 });
 
-
+$(".weixin_icon").mouseover(function () {
+    $(".weixin_code").show();
+});
+$(".weixin_icon").mouseout(function () {
+    $(".weixin_code").hide();
+});
 $(function () {
+
     $(function () {
 
         $('.order-add-s').click(function () {

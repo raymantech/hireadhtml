@@ -841,3 +841,56 @@ a.btn-blue{color: #0078D5;}
 .learning-title4{font-size: 16px;padding-left: 8px;padding-bottom: 10px;}
 .learning-title4 i{width: 28px;text-align: center;padding-right: 8px;}
 .pt-bottom-8{padding-bottom: 8px;}
+
+.title001{padding-bottom: 60px;}
+.title001 h2{text-transform: uppercase;font-weight: 700;font-size: 38px;color: #444;padding: 20px 0 10px 0;}
+.title001 h2 span{color: #DA3716;}
+.border001{height: 1px;margin: 10px auto 10px;position: relative;width: 35%;}
+.border001:before{background-color: #DA3716;content: "";height: 6px;left: 46%;margin-left: -20px;position: absolute;top: -5px;width: 70px;}
+.feature-list li{width: 48%;float: left;}
+.feature-list{padding-top: 10px;}
+.feature-list i{padding-right: 8px;color: #DA3716;}
+a.btn001{padding: 10px 55px;border-radius: 40px;background: #DA3716;color: #fff;font-size: 14px;}
+
+.portfolio{padding:100px 0}
+.portfolio-filter{margin-bottom:40px;text-align:center}
+.portfolio-filter ul li{cursor:pointer;color:#444;display:inline-block;font-size:13px;padding:8px 20px;text-transform:uppercase;font-weight:bold}
+.portfolio-filter ul li.active{background:#546CC3;color:#fff;border-radius:50px}
+.portfolio-block{position:relative;margin-bottom:30px}
+.portfolio-block:before{-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;background:rgba(0,0,0,0.55);opacity:0;top:0;right:0;bottom:0;left:0;position:absolute;content:''}
+.portfolio-block:hover:before{opacity:1}
+.portfolio-block:hover .caption h4{top:45%}
+.portfolio-block:hover .caption{opacity:1;top:55%}
+.portfolio-block .caption{position:absolute;top:50%;left:50%;opacity:0;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);z-index:9;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;text-align:center}
+.portfolio-block .caption h4{font-size:16px}
+.portfolio-block .caption h4 a{color:#fff;padding: 6px;line-height: 30px;}
+.portfolio-block .caption .search-icon{background:#DA3716;color:#fff;display:inline-block;padding:4px 7px;font-size:25px;border-radius:30px}
+.portfolio-block .img-responsive{width: 100%;}
+.layui-tab-title-index{border-bottom: none;text-align: center;}
+.layui-tab-title-index .layui-this:after{border: none;}
+.layui-tab-title-index li{line-height: 30px;padding: 0 20px;}
+.layui-tab-title-index .layui-this{background: #DA3716;color: #fff;border-radius: 30px;}
+/*footer*/
+.relative {position: relative;}
+.aboutUs{background:#545454;color:#cacaca;padding-top:60px;padding-bottom:40px}
+.aboutUs h4{color:#fff;margin-bottom:30px}
+.aboutUs a{color:#cacaca;display:inline-block;text-decoration: none;}
+.aboutUs a:hover{color:#fff;cursor:pointer}
+.aboutWe{border-right:1px #717171 solid;border-left:1px #717171 solid;padding-left:20px;min-height:180px}
+.aboutWe div{line-height:2em}
+.aboutWe h4,.aboutFocus h4{padding-left:15px}
+.aboutFocus{padding-left:40px;padding-right:0}
+.weixinIco{margin-bottom:5px}
+.weixin_code{position:absolute;top:-95px;left:0;display:none}
+.weibo_icon{padding-left:40px;min-height:28px;line-height:28px;background:url(../img/weibo_icon.png) left center no-repeat;margin:10px 0}
+.weixin_icon{padding-left:40px;min-height:28px;line-height:28px;background:url(../img/weixin_icon.png) left center no-repeat}
+.aboutPhone{font-size:22px;line-height:1em;margin-bottom:5px;padding-left:0}
+.aboutPhone i{margin-right: 10px;}
+.aboutPhone-email{padding-top: 10px;}
+.aboutPhone span{display:inline-block;vertical-align:top;color:#e8e8e8}
+.aboutPhone span b{font-weight:normal;color:#c2c2c2;font-size:14px}
+.phone_number{font-weight:bolder}
+.phone_email{font-size:16px;line-height: 24px;}
+.footer{padding:30px 15px;text-align:center;background:#343434;color:#707070}
+.footer a{color:#707070}
+.footer a:hover{color:#fff}
