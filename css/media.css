@@ -6,13 +6,13 @@
     .nav1>li>a{padding: 0 30px;font-size: 14px;color: #333 !important;border-bottom: solid 2px #fff;line-height: 36px;}
     .nav-tabs1{border: none;float: right;position: relative;padding: 13% 40px 30px 0;width: 33%;min-height: 500px;}
     .nav-tabs1>li>a{border: none !important;padding: 10px 0 10px 100px;position: relative;font-size: 16px;}
-    .nav-tabs1>li.active>a, .nav-tabs1>li.active1>a:hover, .nav-tabs1>li.active>a:focus{font-size: 30px;border-bottom: solid 5px #D62D40 !important;padding: 10px 0 10px 30px;}
+    .nav-tabs1>li.active>a, .nav-tabs1>li.active1>a:hover, .nav-tabs1>li.active>a:focus{font-size: 30px;border-bottom: solid 5px #DA3716 !important;padding: 10px 0 10px 30px;}
     .nav-tabs1>li{float: none;background: #fff;}
-    .nav-tabs1>li.active>a:after{content:"<";display:block;position: absolute;left: -13px;bottom: -15px;width: 26px;height: 26px;line-height: 22px;color: #fff;background: #D62D40;font-size: 20px;text-align: center;z-index: 3;
+    .nav-tabs1>li.active>a:after{content:"<";display:block;position: absolute;left: -13px;bottom: -15px;width: 26px;height: 26px;line-height: 22px;color: #fff;background: #DA3716;font-size: 20px;text-align: center;z-index: 3;
         -webkit-border-radius:50px;
         -moz-border-radius:50px;
         border-radius:50px;}
-    .nav-tabs1:after{content:"";display:block;position: absolute;width: 60%;border: solid 12px #D62D40;height: 100%;top: 0;right: 0;z-index: -1;}
+    .nav-tabs1:after{content:"";display:block;position: absolute;width: 60%;border: solid 12px #DA3716;height: 100%;top: 0;right: 0;z-index: -1;}
     .tab-content1 .panel-body{padding: 0;}
     .tab-content1{width: 65%;}
     .tab-content1-text{font-size: 24px;padding-top: 10px;}
@@ -20,7 +20,7 @@
 
     .nav-tabs2>li{width: 33.33%;text-align: center;}
     .nav-tabs2>li>a span{color: #666;font-size: 24px;padding-bottom: 12px;border-bottom: 4px solid transparent;}
-    .nav-tabs2>li.active>a span{color: #D62D40;font-size: 24px;padding-bottom: 12px;border-bottom: 4px solid #D62D40;}
+    .nav-tabs2>li.active>a span{color: #DA3716;font-size: 24px;padding-bottom: 12px;border-bottom: 4px solid #DA3716;}
     .nav-tabs2>li>a i{font-size: 20px;display: inline-block;padding-left: 5px;-webkit-animation:tab-icon-animation .5s infinite;animation:tab-icon-animation .5s infinite;vertical-align: top;padding-top: 6px;color: #666;}
     @-webkit-keyframes tab-icon-animation{
         from{-webkit-transform:translateY(4px) scale(.8);transform:translateY(4px) scale(.8)}
