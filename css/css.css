@@ -94,11 +94,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,dt{font-weight: normal;marg
 .section-title{text-align:center;position:relative;margin-bottom:50px}
 .section-title:before{content:'';display:block;width:100%;height:2px;background-color:#DA3716;position:absolute;top:18px}
 .section-title.strong .sub-title{font-size:24px;color:#065280;margin-top:14px}
-.section-title .text{display:inline-block;margin:0 0 12px;position:relative;font-size:34px;line-height:1;color:#000;background:#fff;padding:0 14px}
+.section-title .text{display:inline-block;margin:0 0 12px;position:relative;font-size:40px;line-height:1;color:#000;background:#fff;padding:0 15%;font-weight: bold;}
 .section-title .text:after,.section-title .text:before{content:'';display:block;border-radius:999px;width:10px;height:10px;background-color:#DA3716;position:absolute;top:14px}
 .section-title .text:before{left:-10px}
 .section-title .text:after{right:-10px}
-.section-title .sub-title{font-size:20px;color:#959595;line-height:1}
+.section-title .sub-title{font-size:16px;color:#333;line-height:1;font-weight: normal;}
 .section-title1 .sub-title{font-size: 24px;color: #065280;margin-top: 14px;}
 
 .index-wp-bg1{background: #DEEBF3;}
